@@ -235,7 +235,8 @@ html.dark .hero h1{background-image:linear-gradient(105deg,#a67c34 0%,#c99c4e 30
 @media (max-width:560px){.midas-hand{top:70px!important}.lastup{font-size:11px}.brand{font-size:15px;white-space:nowrap;gap:8px}.brand .logo{width:32px;height:32px}.theme-btn{width:32px;height:32px}.lang button{padding:5px 9px;font-size:12px}.tools{gap:5px}.ref-tick{width:18px;height:18px;margin-top:-9px;right:calc(100% + 4px)}}
 @media (max-width:360px){.brand>div>span{display:none}}
 
-.pstack{display:grid;gap:12px}
+.pstack{display:grid;gap:12px;grid-template-columns:minmax(0,1fr)}
+.pstack>*,.grid2>*,.grid4>*{min-width:0}
 #pBanks td:first-child{min-width:170px}
 #pBanks td{white-space:normal}
 .ptrend{display:flex;align-items:center;gap:12px;margin-top:10px;flex-wrap:wrap}
