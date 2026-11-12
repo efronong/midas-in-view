@@ -37,7 +37,7 @@ keep = []
 for s in subs:
     try:
         webpush(subscription_info=s, data=payload, vapid_private_key=key,
-                vapid_claims={"sub": "https://github.com/efronong/midas-in-view"}, ttl=43200)
+                vapid_claims={"sub": "https://efronong.github.io"}, ttl=43200)
         keep.append(s); print("sent")
     except WebPushException as e:
         code = getattr(e.response, "status_code", None)
