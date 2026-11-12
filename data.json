@@ -1,0 +1,489 @@
+{
+ "checkedAt": "2026-11-11T23:37:09+08:00",
+ "spot": {
+  "usdPerOz": 4057.33,
+  "prevCloseUsdPerOz": 4031.8,
+  "at": "2026-11-11T06:37:00Z",
+  "status": "verified",
+  "source": "Reuters via Trading & Investment News (spot, 06:37 GMT, 11 Nov 2026)",
+  "url": "https://www.tradingandinvestmentnews.co.uk/gold-price-rebound-fed-hike-bets/",
+  "prevSource": "Mitrade (10 Nov close after CPI, -$107.60)",
+  "prevUrl": "https://www.mitrade.com/insights/commodity-analysis/gold/hotter-cpi-plunges-gold-yields-surge"
+ },
+ "fx": {
+  "MYR": {
+   "rate": 4.0745,
+   "status": "verified",
+   "note": {
+    "en": "BNM Kuala Lumpur USD/MYR reference rate, 11 Nov 2026 (published with a delay).",
+    "zh": "马来西亚国家银行吉隆坡 USD/MYR 参考汇率，2026年11月11日（延迟公布）。"
+   },
+   "url": "https://www.bnm.gov.my/kuala-lumpur-usd/myr-reference-rate"
+  },
+  "HKD": {
+   "rate": 7.78,
+   "status": "derived",
+   "note": {
+    "en": "Approx. HKD is pegged within 7.75–7.85 per USD; live rate not fetched.",
+    "zh": "约值。港元与美元挂钩（7.75–7.85），未获取实时汇率。"
+   },
+   "url": "https://www.hkma.gov.hk/"
+  },
+  "AED": {
+   "rate": 3.6725,
+   "status": "verified",
+   "note": {
+    "en": "Fixed peg: 1 USD = 3.6725 AED.",
+    "zh": "固定挂钩：1 美元 = 3.6725 迪拉姆。"
+   },
+   "url": "https://www.marketshost.com/gold-price/ae/dubai/"
+  },
+  "USD": {
+   "rate": 1,
+   "status": "verified",
+   "note": {
+    "en": "",
+    "zh": ""
+   }
+  }
+ },
+ "purity": {
+  "750": 0.75,
+  "916": 0.916,
+  "999": 0.999
+ },
+ "history": [
+  {
+   "d": "2025-11-07",
+   "v": 4005.38,
+   "s": "Precious Metals International (NY close)",
+   "u": "https://blog.pmi.ky/2026/11/06/the-precious-metals-week-in-review-november-6th-2026/"
+  },
+  {
+   "d": "2026-01-28",
+   "v": 5268,
+   "s": "Fortune (8:40 a.m. ET)",
+   "u": "https://fortune.com/article/current-price-of-gold-01-28-2026"
+  },
+  {
+   "d": "2026-03-10",
+   "v": 5179.66,
+   "s": "GoldPriceData",
+   "u": "https://www.goldpricedata.com/en/gold-prices-in-malaysia.php"
+  },
+  {
+   "d": "2026-03-27",
+   "v": 4430,
+   "s": "Fortune (9:15 a.m. ET)",
+   "u": "https://fortune.com/article/current-price-of-gold-03-27-2026"
+  },
+  {
+   "d": "2026-06-14",
+   "v": 4218.14,
+   "s": "GoldPriceData",
+   "u": "https://www.goldpricedata.com/en/gold-rates/malaysia/"
+  },
+  {
+   "d": "2026-07-01",
+   "v": 4080.69,
+   "s": "GoldPriceData",
+   "u": "https://www.goldpricedata.com/de/silver-prices-in-vietnam.php"
+  },
+  {
+   "d": "2026-08-08",
+   "v": 4342.25,
+   "s": "MetalCharts",
+   "u": "https://eu1.metalcharts.org/gold-price-per-ounce"
+  },
+  {
+   "d": "2026-10-06",
+   "v": 4168,
+   "s": "Fortune (\"1 month ago\" on 6 Nov)",
+   "u": "https://fortune.com/article/current-price-of-gold-11-06-2026/"
+  },
+  {
+   "d": "2026-10-30",
+   "v": 3883.35,
+   "s": "Precious Metals International (NY close)",
+   "u": "https://blog.pmi.ky/2026/11/06/the-precious-metals-week-in-review-november-6th-2026/"
+  },
+  {
+   "d": "2026-11-01",
+   "v": 3901.19,
+   "s": "PriceGold.net",
+   "u": "https://pricegold.net/2026/november/1/"
+  },
+  {
+   "d": "2026-11-03",
+   "v": 3957.23,
+   "s": "PriceGold.net",
+   "u": "https://pricegold.net/2026/november/3/"
+  },
+  {
+   "d": "2026-11-04",
+   "v": 4046.74,
+   "s": "Precious Metals International (intraday)",
+   "u": "https://blog.pmi.ky/2026/11/06/the-precious-metals-week-in-review-november-6th-2026/"
+  },
+  {
+   "d": "2026-11-05",
+   "v": 4122,
+   "s": "Fortune (\"yesterday\" on 6 Nov)",
+   "u": "https://fortune.com/article/current-price-of-gold-11-06-2026/"
+  },
+  {
+   "d": "2026-11-06",
+   "v": 4060.2,
+   "s": "Precious Metals International (NY close)",
+   "u": "https://blog.pmi.ky/2026/11/06/the-precious-metals-week-in-review-november-6th-2026/"
+  },
+  {
+   "d": "2026-11-09",
+   "v": 4119,
+   "s": "Investing News Network (8:12 a.m. ET)",
+   "u": "https://investingnews.com/gold-rebounds-after-jobs-data/"
+  },
+  {
+   "d": "2026-11-10",
+   "v": 4031.8,
+   "s": "Mitrade (close)",
+   "u": "https://www.mitrade.com/insights/commodity-analysis/gold/hotter-cpi-plunges-gold-yields-surge"
+  },
+  {
+   "d": "2026-11-11",
+   "v": 4057.33,
+   "s": "Reuters via Trading & Investment News (06:37 GMT)",
+   "u": "https://www.tradingandinvestmentnews.co.uk/gold-price-rebound-fed-hike-bets/"
+  }
+ ],
+ "week52": {
+  "hi": 5595.46,
+  "lo": 3866.02,
+  "src": "Forbes Advisor, 6 Nov 2026",
+  "url": "https://www.forbes.com/advisor/investing/gold-price/"
+ },
+ "kijang": [
+  {
+   "d": "2026-11-06",
+   "sell": 17575,
+   "buy": 16870
+  },
+  {
+   "d": "2026-11-05",
+   "sell": 17521,
+   "buy": 16816
+  },
+  {
+   "d": "2026-11-04",
+   "sell": 17032,
+   "buy": 16353
+  },
+  {
+   "d": "2026-11-03",
+   "sell": 17068,
+   "buy": 16374
+  },
+  {
+   "d": "2026-11-02",
+   "sell": 16798,
+   "buy": 16122
+  }
+ ],
+ "fees": [
+  {
+   "market": {
+    "en": "Malaysia",
+    "zh": "马来西亚"
+   },
+   "basis": {
+    "en": "Usually per gram (upah)",
+    "zh": "通常按克计（upah）"
+   },
+   "range": {
+    "en": "≈ RM30–80 per gram above the gold price",
+    "zh": "每克约比金价高 RM30–80"
+   },
+   "status": "unverified",
+   "note": {
+    "en": "Single secondary source; varies widely by shop and design.",
+    "zh": "仅一个二手来源；因店铺和款式差异很大。"
+   },
+   "s": "CalculatorMalaysia",
+   "u": "https://calculatormalaysia.com/harga-emas-malaysia/"
+  },
+  {
+   "market": {
+    "en": "UAE (Dubai)",
+    "zh": "阿联酋（迪拜）"
+   },
+   "basis": {
+    "en": "Per gram or % of metal value; negotiable",
+    "zh": "按克或按金值百分比；可议价"
+   },
+   "range": {
+    "en": "Simple 22K pieces ≈ AED 10–25/g; Gold Souk often 5–8%; some shops cut fees to zero on promotions",
+    "zh": "简单 22K 款约每克 10–25 迪拉姆；黄金市场常见 5–8%；部分店铺促销时免工费"
+   },
+   "status": "verified",
+   "note": {
+    "en": "DJG daily rate excludes making charges and 5% VAT.",
+    "zh": "迪拜珠宝集团每日金价不含工费及 5% 增值税。"
+   },
+   "s": "Nomado guide · Angel One · Khaleej Times",
+   "u": "https://www.khaleejtimes.com/business/dubai-gold-sales-get-a-boost-from-jewellers-discounts-for-residents"
+  },
+  {
+   "market": {
+    "en": "Hong Kong",
+    "zh": "香港"
+   },
+   "basis": {
+    "en": "Flat labour fee per piece + 2% commission (priced-by-weight items)",
+    "zh": "每件固定工费 + 2% 佣金（按重量计价商品）"
+   },
+   "range": {
+    "en": "Example: HK$200 craftsmanship fee + 2% (Chow Tai Fook); HK$250 labour on a 10 g ingot (Chow Sang Sang)",
+    "zh": "例：周大福工费 200 港元 + 2%；周生生 10 克金锭工费 250 港元"
+   },
+   "status": "verified",
+   "note": {
+    "en": "Fixed-price designs are priced differently and are not comparable.",
+    "zh": "一口价款式计价方式不同，不可直接比较。"
+   },
+   "s": "Chow Tai Fook guide",
+   "u": "https://www.chowtaifook.com/en-hk/house-of-ctf/blog/gold-price-calculation-tips-and-gold-jewellery-selection-guide"
+  },
+  {
+   "market": {
+    "en": "India (reference)",
+    "zh": "印度（参考）"
+   },
+   "basis": {
+    "en": "Mostly % of gold value, plus GST",
+    "zh": "多按金值百分比，另加商品及服务税"
+   },
+   "range": {
+    "en": "≈ 8–25% of gold value",
+    "zh": "约金值的 8–25%"
+   },
+   "status": "unverified",
+   "note": {
+    "en": "Dated article (Apr 2025).",
+    "zh": "文章较旧（2025年4月）。"
+   },
+   "s": "Angel One",
+   "u": "https://www.angelone.in/news/are-jewellery-making-charges-lower-in-dubai-gold-souk-or-india"
+  },
+  {
+   "market": {
+    "en": "Singapore, others",
+    "zh": "新加坡及其他"
+   },
+   "basis": {
+    "en": "—",
+    "zh": "—"
+   },
+   "range": {
+    "en": "Data unavailable",
+    "zh": "暂无数据"
+   },
+   "status": "unavailable",
+   "note": {
+    "en": "No reliable source found.",
+    "zh": "未找到可靠来源。"
+   },
+   "s": null,
+   "u": null
+  }
+ ],
+ "news": [
+  {
+   "region": "Global",
+   "date": "2026-11-11T06:37:00Z",
+   "h": {
+    "en": "Gold edges back above US$4,050 after CPI sell-off",
+    "zh": "CPI 抛售后金价回升至 4,050 美元上方"
+   },
+   "f": {
+    "en": "Spot gold was at US$4,057.33/oz at 06:37 GMT on 11 Nov, up about 0.6%, after Tuesday's near-3% drop. Analysts called it a technical bounce rather than a turn.",
+    "zh": "11月11日格林尼治时间 06:37 现货金报 4,057.33 美元/盎司，涨约 0.6%；周二曾跌近 3%。分析师认为这是技术性反弹而非趋势逆转。"
+   },
+   "i": {
+    "en": "A rebound after a sharp fall can fade if rate-hike expectations stay high; buyers may see choppy prices this week.",
+    "zh": "大跌后的反弹在加息预期高企时可能难以持续，本周价格或较波动。"
+   },
+   "s": "Trading & Investment News (Reuters)",
+   "u": "https://www.tradingandinvestmentnews.co.uk/gold-price-rebound-fed-hike-bets/"
+  },
+  {
+   "region": "US",
+   "date": "2026-11-10T08:30:00-05:00",
+   "h": {
+    "en": "US October CPI comes in hotter than expected",
+    "zh": "美国10月 CPI 高于预期"
+   },
+   "f": {
+    "en": "Headline CPI rose 0.4% m/m (forecast 0.3%) and core rose 0.3% (forecast 0.2%). No year-on-year figure was published for October because of the 2025 shutdown data gap.",
+    "zh": "整体 CPI 环比升 0.4%（预期 0.3%），核心 CPI 升 0.3%（预期 0.2%）。因 2025 年政府停摆缺少数据，10月未公布同比数字。"
+   },
+   "i": {
+    "en": "Sticky inflation keeps pressure on the Fed to raise rates, which tends to weigh on non-yielding gold.",
+    "zh": "通胀黏性令美联储维持加息压力，通常不利于无息的黄金。"
+   },
+   "s": "Kitco",
+   "u": "https://www.kitco.com/news/article/2026-11-10/gold-prices-down-2-day-us-cpi-rises-more-expected"
+  },
+  {
+   "region": "US",
+   "date": "2026-11-10T11:33:00-05:00",
+   "h": {
+    "en": "Gold falls nearly 3% as dollar and yields climb",
+    "zh": "美元及收益率上升，金价跌近 3%"
+   },
+   "f": {
+    "en": "Spot gold was down 2.8% at US$4,021.36 at 11:33 a.m. ET. A 25 bp December hike was seen as fully priced, and the odds of a 50 bp move rose to about 10.5%.",
+    "zh": "美东时间上午 11:33 现货金跌 2.8% 至 4,021.36 美元。市场已完全计入12月加息 25 个基点，加息 50 个基点概率升至约 10.5%。"
+   },
+   "i": {
+    "en": "Higher US rates and a firmer dollar raise the cost of holding gold and make it dearer for non-USD buyers.",
+    "zh": "美国利率上升和美元走强提高持有黄金的成本，并使非美元买家购金更贵。"
+   },
+   "s": "MINING.COM",
+   "u": "https://www.mining.com/web/gold-price-falls-nearly-3-as-cpi-tops-forecasts-lifting-dollar-and-yields/"
+  },
+  {
+   "region": "US",
+   "date": "2026-11-10T11:53:00Z",
+   "h": {
+    "en": "Fed's Waller backs a December hike, floats half-point option",
+    "zh": "美联储沃勒支持12月加息，并提及可加息半个百分点"
+   },
+   "f": {
+    "en": "Governor Christopher Waller said the Fed should raise rates next month and consider 50 bp if inflation worsens; FedWatch showed about 99% odds of a hike before the CPI release.",
+    "zh": "理事沃勒表示美联储下月应加息，若通胀恶化可考虑加息 50 个基点；CPI 公布前 FedWatch 显示加息概率约 99%。"
+   },
+   "i": {
+    "en": "Hawkish Fed talk lifts short-term yields, a headwind for gold in USD and in pegged HKD and AED.",
+    "zh": "美联储鹰派言论推高短期收益率，对以美元及挂钩的港元、迪拉姆计价的金价构成阻力。"
+   },
+   "s": "Business Recorder (Reuters)",
+   "u": "https://www.brecorder.com/news/40448265/gold-drops-1-on-hawkish-fed-comments-ahead-of-us-inflation-data"
+  },
+  {
+   "region": "US",
+   "date": "2026-11-11T00:00:00Z",
+   "h": {
+    "en": "US 10-year yield tops 5% after CPI",
+    "zh": "CPI 公布后美国10年期国债收益率突破 5%"
+   },
+   "f": {
+    "en": "The 10-year Treasury yield moved above 5% and markets priced a 100% chance of a hike at the 8–9 Dec meeting (88% for 25 bp, 12% for 50 bp). Brent fell to about US$91.",
+    "zh": "美国10年期国债收益率升破 5%，市场计入12月8–9日会议 100% 加息概率（25 个基点 88%，50 个基点 12%）。布伦特原油跌至约 91 美元。"
+   },
+   "i": {
+    "en": "Yields above 5% make bonds a stronger rival to gold; cheaper oil partly offsets this by easing inflation fears.",
+    "zh": "收益率逾 5% 使债券对黄金的竞争力增强；油价下跌缓解通胀担忧，可部分抵消。"
+   },
+   "s": "Mitrade",
+   "u": "https://www.mitrade.com/insights/commodity-analysis/gold/hotter-cpi-plunges-gold-yields-surge"
+  },
+  {
+   "region": "Malaysia",
+   "date": "2026-11-11T09:23:00+08:00",
+   "h": {
+    "en": "Ringgit flat at 4.054–4.059 vs US dollar",
+    "zh": "马币兑美元持平于 4.054–4.059"
+   },
+   "f": {
+    "en": "The ringgit opened at 4.0540/0590 per USD, unchanged from Tuesday, but firmer against the yen, euro and pound. Bank Muamalat expected a 4.06–4.08 range for the day.",
+    "zh": "马币开盘报 4.0540/0590 兑 1 美元，与周二持平，但兑日元、欧元和英镑走强。马来西亚回教银行预计当日在 4.06–4.08 区间。"
+   },
+   "i": {
+    "en": "With the ringgit steady, RM gold prices largely follow the USD spot price; a weaker ringgit would add slightly to local prices.",
+    "zh": "马币稳定时令吉金价主要跟随美元现货；若马币走弱，本地金价会略升。"
+   },
+   "s": "The Star (Bernama)",
+   "u": "https://www.thestar.com.my/business/business-news/2026/11/11/ringgit-opens-higher-against-major-currencies-flat-vs-greenback"
+  },
+  {
+   "region": "Malaysia",
+   "date": "2026-11-11T07:15:00+08:00",
+   "h": {
+    "en": "Economist sees room for ringgit to strengthen in 2027",
+    "zh": "经济学家认为马币 2027 年有走强空间"
+   },
+   "f": {
+    "en": "Juwai IQI's Shan Saeed gave a 2027 base case of RM3.90–4.11 per USD, citing chip and data-centre investment. BNM held the OPR at 2.75% on 5 Nov.",
+    "zh": "居外 IQI 首席经济学家 Shan Saeed 给出 2027 年基准区间 3.90–4.11 令吉兑 1 美元，理由是芯片和数据中心投资。国行11月5日维持 OPR 2.75%。"
+   },
+   "i": {
+    "en": "A stronger ringgit over time would make gold slightly cheaper in RM, all else equal; this is a forecast, not a certainty.",
+    "zh": "若马币中期走强，其他条件不变下以令吉计金价会略降；此为预测，并非定论。"
+   },
+   "s": "Media Selangor (Bernama)",
+   "u": "https://mediaselangor.com/en/2026/11/406190"
+  },
+  {
+   "region": "UAE",
+   "date": "2026-11-09T09:20:00+04:00",
+   "h": {
+    "en": "Dubai 24K rises to AED 496.75/g as oil eases",
+    "zh": "油价回落，迪拜 24K 金价升至每克 496.75 迪拉姆"
+   },
+   "f": {
+    "en": "Dubai Jewellery Group data showed 24K at AED 496.75/g and 22K at AED 460 at Monday's open, up from AED 490.50 over the weekend.",
+    "zh": "迪拜珠宝集团数据显示周一开盘 24K 每克 496.75 迪拉姆，22K 每克 460 迪拉姆，周末为 490.50。"
+   },
+   "i": {
+    "en": "Rates set before Tuesday's CPI drop; Dubai prices track USD spot almost one-for-one because of the AED peg.",
+    "zh": "该价格早于周二 CPI 引发的下跌；由于迪拉姆挂钩美元，迪拜金价几乎与现货同步。"
+   },
+   "s": "Khaleej Times",
+   "u": "https://www.khaleejtimes.com/business/dubai-gold-prices-surge-higher-24k-gains-dh625-as-us-inflation-concerns-ease"
+  },
+  {
+   "region": "Hong Kong",
+   "date": "2026-11-05T00:00:00+08:00",
+   "h": {
+    "en": "Mainland buyers lift Hong Kong jewellery sales 22%",
+    "zh": "内地买家带动香港珠宝销售增长 22%"
+   },
+   "f": {
+    "en": "Hong Kong sales of jewellery, watches and valuable gifts rose 22% y/y to HK$45.8bn in the first nine months of 2026, the highest since 2019.",
+    "zh": "2026 年前九个月香港珠宝、钟表及贵重礼品销售同比增 22% 至 458 亿港元，为 2019 年以来最高。"
+   },
+   "i": {
+    "en": "Strong local demand supports retail premiums in Hong Kong even when spot prices dip.",
+    "zh": "本地需求强劲，即使现货回落，香港零售溢价仍获支撑。"
+   },
+   "s": "The Edge Malaysia",
+   "u": "https://theedgemalaysia.com/node/824673",
+   "background": true
+  },
+  {
+   "region": "Global",
+   "date": "2026-11-04T00:00:00Z",
+   "h": {
+    "en": "Central banks buy gold at fastest pace since 2024",
+    "zh": "各国央行购金速度为 2024 年以来最快"
+   },
+   "f": {
+    "en": "World Gold Council: central banks bought 321 t in Q3 2026, 42% above a year earlier.",
+    "zh": "世界黄金协会：2026 年第三季度央行购金 321 吨，同比增 42%。"
+   },
+   "i": {
+    "en": "Steady official buying is a longer-term support; it rarely drives day-to-day moves.",
+    "zh": "官方持续购金是长期支撑因素，但很少主导日内波动。"
+   },
+   "s": "Canadian Mining Report",
+   "u": "https://www.canadianminingreport.com/blog/central-banks-buy-gold-at-fastest-pace-since-2024-world-gold-council-says",
+   "background": true
+  }
+ ],
+ "schemaVersion": 1,
+ "lastRefresh": {
+  "at": "2026-11-11T23:37:09+08:00",
+  "by": "scheduled task",
+  "note": "Spot (06:37 GMT 11 Nov), prev close (10 Nov), USD/MYR (BNM ref 11 Nov), history and news updated. Kijang Emas not updated: BNM page returned only rows up to 27 Oct, older than stored data. HKD, week52, purity, fees unchanged."
+ }
+}

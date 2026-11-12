@@ -1,0 +1,32 @@
+name: Daily data refresh
+
+on:
+  schedule:
+    - cron: "32 0 * * *"   # 08:32 Malaysia time, every day
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Refresh data.json
+        run: python scripts/refresh.py
+      - name: Commit if changed
+        run: |
+          if git diff --quiet data.json; then echo "No change"; exit 0; fi
+          git config user.name "midas-bot"
+          git config user.email "midas-bot@users.noreply.github.com"
+          git add data.json
+          git commit -m "Daily data refresh $(TZ=Asia/Kuala_Lumpur date '+%Y-%m-%d %H:%M MYT')"
+          git push
