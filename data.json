@@ -537,5 +537,141 @@
   "at": "2026-11-12T11:59:28+08:00",
   "by": "GitHub Actions",
   "note": "spot 3983.30; week52; MYR 4.0695; kijang 2026-11-12; news 10"
+ },
+ "forecasts": {
+  "checked": "2026-11-12",
+  "items": [
+   {
+    "inst": "Goldman Sachs",
+    "target": 4150,
+    "kind": "end",
+    "horizon": {
+     "en": "End-2026",
+     "zh": "2026年底"
+    },
+    "date": "2026-11-05",
+    "note": {
+     "en": "Cut from $4,650; cites a hawkish Fed",
+     "zh": "由 4,650 美元下调；理由是美联储偏鹰派"
+    },
+    "s": "Mining Weekly",
+    "u": "https://www.miningweekly.com/article/goldman-sachs-trims-gold-forecasts-as-fed-stays-hawkish-2026-11-06"
+   },
+   {
+    "inst": "Goldman Sachs",
+    "target": 4800,
+    "kind": "end",
+    "horizon": {
+     "en": "End-2027",
+     "zh": "2027年底"
+    },
+    "date": "2026-11-05",
+    "note": {
+     "en": "Cut from $5,400; expects ~60 t/month central-bank buying",
+     "zh": "由 5,400 美元下调；预计央行每月购金约 60 吨"
+    },
+    "s": "investingLive",
+    "u": "https://investinglive.com/commodities/icymi-goldman-cuts-gold-forecasts-to-4-150-for-2026-4-800-for-2027-as-hawkish-fed-bites/"
+   },
+   {
+    "inst": "UBS",
+    "target": 5400,
+    "kind": "end",
+    "horizon": {
+     "en": "Sep 2027",
+     "zh": "2027年9月"
+    },
+    "date": "2026-11-09",
+    "note": {
+     "en": "As listed in a 9 Nov round-up",
+     "zh": "据 11月9日汇总"
+    },
+    "s": "TheStreet",
+    "u": "https://www.thestreet.com/investing/goldman-sachs-gold-2027-forecast"
+   },
+   {
+    "inst": "JPMorgan",
+    "target": 6300,
+    "kind": "end",
+    "horizon": {
+     "en": "End-2027",
+     "zh": "2027年底"
+    },
+    "date": "2026-11-09",
+    "note": {
+     "en": "As listed in a 9 Nov round-up; the bank's call date isn't stated",
+     "zh": "据 11月9日汇总；未注明该行发布日期"
+    },
+    "s": "TheStreet",
+    "u": "https://www.thestreet.com/investing/goldman-sachs-gold-2027-forecast"
+   },
+   {
+    "inst": "Wells Fargo",
+    "target": [
+     5200,
+     5400
+    ],
+    "kind": "end",
+    "horizon": {
+     "en": "End-2027",
+     "zh": "2027年底"
+    },
+    "date": "2026-11-09",
+    "note": {
+     "en": "Range target",
+     "zh": "区间目标"
+    },
+    "s": "TheStreet (republished)",
+    "u": "https://www.louisvelazquez.com/goldman-sachs-revamps-2027-gold-price-target-but-signals-rebound/"
+   },
+   {
+    "inst": "Morgan Stanley",
+    "target": 5050,
+    "kind": "avg",
+    "horizon": {
+     "en": "2027 average",
+     "zh": "2027年均价"
+    },
+    "date": "2026-11-07",
+    "note": {
+     "en": "Range cited: $3,788–$6,818",
+     "zh": "所引区间：3,788–6,818 美元"
+    },
+    "s": "Time News",
+    "u": "https://time.news/goldman-sachs-cuts-gold-price-forecasts-for-2026-and-2027/"
+   },
+   {
+    "inst": "Bank of America",
+    "target": 4813,
+    "kind": "avg",
+    "horizon": {
+     "en": "2027 average",
+     "zh": "2027年均价"
+    },
+    "date": "2026-11-10",
+    "note": {
+     "en": "About $4,750 in Q1 2027, $5,000 by Q2–Q3",
+     "zh": "2027年一季度约 4,750 美元，二三季度约 5,000 美元"
+    },
+    "s": "Discovery Alert",
+    "u": "https://discoveryalert.com/analysis/gold-price-outlook-2027-november-2026/"
+   },
+   {
+    "inst": "World Bank",
+    "target": 4600,
+    "kind": "avg",
+    "horizon": {
+     "en": "2027 average",
+     "zh": "2027年均价"
+    },
+    "date": "2026-11-10",
+    "note": {
+     "en": "Sees a $4,000 average in 2028",
+     "zh": "预计 2028 年均价 4,000 美元"
+    },
+    "s": "deVere Group",
+    "u": "https://www.devere-group.com/gold-price-forecast-downgraded-after-rate-hikes-gold-price-predictions-2027-2028/"
+   }
+  ]
  }
 }

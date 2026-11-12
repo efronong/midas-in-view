@@ -58,6 +58,37 @@ def fetch_year_closes():
     return out
 
 
+# ---------------------------------------------------------------- statistical model
+def build_model(closes, spot):
+    """Volatility ranges + simple trend signals from daily closes. No price direction is forecast."""
+    import math, statistics
+    vals = [c for _, c in closes]
+    rets = [math.log(b / a) for a, b in zip(vals[:-1], vals[1:]) if a > 0 and b > 0]
+    win = rets[-60:]
+    sd = statistics.pstdev(win)
+    ma20 = sum(vals[-20:]) / 20
+    ma50 = sum(vals[-50:]) / 50
+    ret20 = vals[-1] / vals[-21] - 1
+    above20, above50 = spot > ma20, spot > ma50
+    if above20 and above50 and ma20 > ma50:
+        trend = "up"
+    elif not above20 and not above50 and ma20 < ma50:
+        trend = "down"
+    else:
+        trend = "mixed"
+    hz = []
+    for days in (1, 5, 21):
+        s1 = sd * math.sqrt(days)
+        hz.append({"days": days,
+                   "lo68": round(spot * math.exp(-s1), 2), "hi68": round(spot * math.exp(s1), 2),
+                   "lo95": round(spot * math.exp(-1.96 * s1), 2), "hi95": round(spot * math.exp(1.96 * s1), 2)})
+    return {"asOf": now_myt().isoformat(), "spot": round(spot, 2), "dailyVolPct": round(sd * 100, 2),
+            "annualVolPct": round(sd * math.sqrt(252) * 100, 1), "ma20": round(ma20, 2), "ma50": round(ma50, 2),
+            "ret20Pct": round(ret20 * 100, 2), "trend": trend, "horizons": hz,
+            "method": "60-day volatility of COMEX gold daily closes (Yahoo Finance GC=F); ranges centred on today's spot with no assumed direction",
+            "src": "Yahoo Finance GC=F daily closes", "url": "https://finance.yahoo.com/quote/GC=F/history/"}
+
+
 # ---------------------------------------------------------------- FX
 def fetch_fx():
     j = get_json("https://open.er-api.com/v6/latest/USD")
@@ -210,8 +241,10 @@ def main():
             d["week52"] = {"hi": round(max(vals), 2), "lo": round(min(vals), 2),
                            "src": f"Yahoo Finance GC=F daily closes, to {closes[-1][0]}", "url": "https://finance.yahoo.com/quote/GC=F/history/"}
             changed.append("week52")
+            d["model"] = build_model(closes, d["spot"]["usdPerOz"])
+            changed.append(f"model {d['model']['trend']}")
     except Exception as e:
-        log.append(f"week52 failed: {e}")
+        log.append(f"week52/model failed: {e}")
 
     # FX
     try:
