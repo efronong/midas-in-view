@@ -1,12 +1,12 @@
 {
- "checkedAt": "2026-11-12T11:59:28+08:00",
+ "checkedAt": "2026-11-12T12:59:56+08:00",
  "spot": {
-  "usdPerOz": 3983.3,
+  "usdPerOz": 3981.0,
   "prevCloseUsdPerOz": 4057.33,
-  "at": "2026-11-12T03:59:01Z",
+  "at": "2026-11-12T04:49:53+00:00",
   "status": "verified",
-  "source": "gold-api.com (spot XAU/USD)",
-  "url": "https://gold-api.com/",
+  "source": "Yahoo Finance (COMEX futures GC=F)",
+  "url": "https://finance.yahoo.com/quote/GC=F/",
   "prevSource": "Previous daily reading (2026-11-11)",
   "prevUrl": "https://www.tradingandinvestmentnews.co.uk/gold-price-rebound-fed-hike-bets/"
  },
@@ -157,9 +157,9 @@
   },
   {
    "d": "2026-11-12",
-   "v": 3983.3,
-   "s": "gold-api.com (spot XAU/USD)",
-   "u": "https://gold-api.com/"
+   "v": 3981.0,
+   "s": "Yahoo Finance (COMEX futures GC=F)",
+   "u": "https://finance.yahoo.com/quote/GC=F/"
   }
  ],
  "week52": {
@@ -304,8 +304,8 @@
  ],
  "news": [
   {
-   "region": "US",
-   "date": "2026-11-12T03:40:00+00:00",
+   "region": "Malaysia",
+   "date": "2026-11-12T04:12:36+00:00",
    "auto": true,
    "h": {
     "en": "Gold falls to over one-week low on firm dollar, Fed rate hike bets",
@@ -315,8 +315,8 @@
     "en": "Interest-rate news: higher US rates or yields usually weigh on gold; lower ones tend to support it.",
     "zh": "利率消息：美国利率或收益率上升通常压制金价，下降则往往利好金价。"
    },
-   "s": "Reuters",
-   "u": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPc09mRGRCVmlxTnVTdDR2Y0ktNjVkZE1xUHhyTnZWUGZvbFZFS2hsTFk1SkVfNE82SVZlMTFXbUFtckZMaDIwbzA5RlgxWUxKbE5ZMGhrRkl1UWFrVG9ibW9mdWlGM0NYRTVlQnZramhHSTVadmtEaFhWMDRFY1dYVWRPX1RzNm9YNURTVUVzeGo2aEo4UzZReXRCVlQ0amhjVGFWTU1BVFVQR1k?oc=5"
+   "s": "The Edge Malaysia",
+   "u": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBKUmNEQnBqc2JNWlFoUG1LUWJTSW5Bc3ZRRFhwRGVPWE8zdE5kSGJVelhLdDhoWkpPOWlrc0cxekd0Ty1Zc2NxMlB0cEk1Wmto?oc=5"
   },
   {
    "region": "Malaysia",
@@ -347,6 +347,21 @@
    },
    "s": "NST Online",
    "u": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNRWtianhEWDBkZ19CWHFPNTB0bEc1ejNEYUVBLW9sWTRyMkZsbmg3eEtRY2FiRDRCQndMdGpxcFhYMU9ZUl9idHhYLV8zQWFpajN4RVRxejFNajNVZmYwYmxSa0UwakE2QkF4X2c0aWxCUnhHdFZXNlRmMS15RVpZa3pRWTZ6YkpQMExuYjh6VUVzcUVaRlBGaGg3bXFVdGdtNGlIR2lsQUkzTEVH0gGyAUFVX3lxTE1pYndDa3pKd3Y3amtWN1U5VHBKcEJacDBWWHFOV19YeVEtSGpsazJxUjBYazE2UlFkQ2c3QWY1NkZwZExYeEk2SndYNlIycHBmRkx3NURHYTU5VVZsZjJLLVo3VFh1eWJJVnN5MWlVQkJsWDZickRRM2VBUmhDQTR5czJTaW04TlhseV92RUZIMU9Ud2lfS1FiWTdjdWRQWG84eU5BNk1mQUpzWnRtUXhlc0E?oc=5"
+  },
+  {
+   "region": "Global",
+   "date": "2026-11-11T15:44:58+00:00",
+   "auto": true,
+   "h": {
+    "en": "Central banks are exploring Asian gold hubs for safe storage of reserves - DBS",
+    "zh": "Central banks are exploring Asian gold hubs for safe storage of reserves - DBS"
+   },
+   "i": {
+    "en": "Central-bank demand is a longer-term support for gold; it rarely moves daily prices on its own.",
+    "zh": "央行需求是金价的长期支撑因素，单独很少左右日内价格。"
+   },
+   "s": "Kitco",
+   "u": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOcnY3Qm9WcHl6ZEhpNWI0dUl3Y0JMY1hNS2ZZclBoQkNrOWs4LTNKcmdWWnYtU2p4cENXZkFieFFadXNmU196SF9tWDJiTDhzUllhaE5fMk50M1pLOFloM1JvQ3ZhSEhYRVk4MmNUV1J2aGhZOHZpX0ZZNWxiMWNONGZiSE5JQmxwYVRoblZTNzdfTnNIYkVwTVJHLWRhOER6Y0lDR0FSSThVbTM4ZjRpSTMyRUdRQQ?oc=5"
   },
   {
    "region": "Malaysia",
@@ -401,21 +416,6 @@
    },
    "s": "Trading & Investment News (Reuters)",
    "u": "https://www.tradingandinvestmentnews.co.uk/gold-price-rebound-fed-hike-bets/"
-  },
-  {
-   "region": "Global",
-   "date": "2026-11-11T06:00:00+00:00",
-   "auto": true,
-   "h": {
-    "en": "Why European Central Banks Want Their Gold Back",
-    "zh": "Why European Central Banks Want Their Gold Back"
-   },
-   "i": {
-    "en": "Central-bank demand is a longer-term support for gold; it rarely moves daily prices on its own.",
-    "zh": "央行需求是金价的长期支撑因素，单独很少左右日内价格。"
-   },
-   "s": "Global Finance Magazine",
-   "u": "https://news.google.com/rss/articles/CBMif0FVX3lxTE85ejdwaWI5ZnQxMjhrNUNnWVo5azEyRTByalBOLWVlb29COVp4bmhWallsLXYxV2liNy12ZC1nSmIycFZWNDNoNmdKdklxWlNJRjNJQ2JlMUJwQUFYcU5uTWRnTmhaZ0ZFdTZuc2tzZ1lOSzRfeng4UkVZaC1aMzQ?oc=5"
   },
   {
    "region": "UAE",
@@ -534,9 +534,9 @@
  ],
  "schemaVersion": 1,
  "lastRefresh": {
-  "at": "2026-11-12T11:59:28+08:00",
+  "at": "2026-11-12T12:59:56+08:00",
   "by": "GitHub Actions",
-  "note": "spot 3983.30; week52; MYR 4.0695; kijang 2026-11-12; news 10"
+  "note": "spot 3981.00; week52; model down; MYR 4.0695; kijang 2026-11-12; news 10; gold-api failed: <urlopen error [Errno -2] Name or service not known>"
  },
  "forecasts": {
   "checked": "2026-11-12",
@@ -673,5 +673,41 @@
     "u": "https://www.devere-group.com/gold-price-forecast-downgraded-after-rate-hikes-gold-price-predictions-2027-2028/"
    }
   ]
+ },
+ "model": {
+  "asOf": "2026-11-12T12:59:57+08:00",
+  "spot": 3981.0,
+  "dailyVolPct": 1.31,
+  "annualVolPct": 20.8,
+  "ma20": 4054.73,
+  "ma50": 4196.5,
+  "ret20Pct": -4.53,
+  "trend": "down",
+  "horizons": [
+   {
+    "days": 1,
+    "lo68": 3929.18,
+    "hi68": 4033.51,
+    "lo95": 3880.06,
+    "hi95": 4084.57
+   },
+   {
+    "days": 5,
+    "lo68": 3866.05,
+    "hi68": 4099.37,
+    "lo95": 3758.82,
+    "hi95": 4216.31
+   },
+   {
+    "days": 21,
+    "lo68": 3748.99,
+    "hi68": 4227.37,
+    "lo95": 3538.99,
+    "hi95": 4478.22
+   }
+  ],
+  "method": "60-day volatility of COMEX gold daily closes (Yahoo Finance GC=F); ranges centred on today's spot with no assumed direction",
+  "src": "Yahoo Finance GC=F daily closes",
+  "url": "https://finance.yahoo.com/quote/GC=F/history/"
  }
 }
