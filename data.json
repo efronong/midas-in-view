@@ -1,33 +1,33 @@
 {
- "checkedAt": "2026-11-11T23:37:09+08:00",
+ "checkedAt": "2026-11-12T11:59:28+08:00",
  "spot": {
-  "usdPerOz": 4057.33,
-  "prevCloseUsdPerOz": 4031.8,
-  "at": "2026-11-11T06:37:00Z",
+  "usdPerOz": 3983.3,
+  "prevCloseUsdPerOz": 4057.33,
+  "at": "2026-11-12T03:59:01Z",
   "status": "verified",
-  "source": "Reuters via Trading & Investment News (spot, 06:37 GMT, 11 Nov 2026)",
-  "url": "https://www.tradingandinvestmentnews.co.uk/gold-price-rebound-fed-hike-bets/",
-  "prevSource": "Mitrade (10 Nov close after CPI, -$107.60)",
-  "prevUrl": "https://www.mitrade.com/insights/commodity-analysis/gold/hotter-cpi-plunges-gold-yields-surge"
+  "source": "gold-api.com (spot XAU/USD)",
+  "url": "https://gold-api.com/",
+  "prevSource": "Previous daily reading (2026-11-11)",
+  "prevUrl": "https://www.tradingandinvestmentnews.co.uk/gold-price-rebound-fed-hike-bets/"
  },
  "fx": {
   "MYR": {
-   "rate": 4.0745,
+   "rate": 4.0695,
    "status": "verified",
    "note": {
-    "en": "BNM Kuala Lumpur USD/MYR reference rate, 11 Nov 2026 (published with a delay).",
-    "zh": "马来西亚国家银行吉隆坡 USD/MYR 参考汇率，2026年11月11日（延迟公布）。"
+    "en": "Daily reference rate from ExchangeRate-API (Thu, 12 Nov 2026).",
+    "zh": "ExchangeRate-API 每日参考汇率（Thu, 12 Nov 2026）。"
    },
-   "url": "https://www.bnm.gov.my/kuala-lumpur-usd/myr-reference-rate"
+   "url": "https://www.exchangerate-api.com/"
   },
   "HKD": {
-   "rate": 7.78,
-   "status": "derived",
+   "rate": 7.8451,
+   "status": "verified",
    "note": {
-    "en": "Approx. HKD is pegged within 7.75–7.85 per USD; live rate not fetched.",
-    "zh": "约值。港元与美元挂钩（7.75–7.85），未获取实时汇率。"
+    "en": "Daily reference rate from ExchangeRate-API (Thu, 12 Nov 2026).",
+    "zh": "ExchangeRate-API 每日参考汇率（Thu, 12 Nov 2026）。"
    },
-   "url": "https://www.hkma.gov.hk/"
+   "url": "https://www.exchangerate-api.com/"
   },
   "AED": {
    "rate": 3.6725,
@@ -154,39 +154,45 @@
    "v": 4057.33,
    "s": "Reuters via Trading & Investment News (06:37 GMT)",
    "u": "https://www.tradingandinvestmentnews.co.uk/gold-price-rebound-fed-hike-bets/"
+  },
+  {
+   "d": "2026-11-12",
+   "v": 3983.3,
+   "s": "gold-api.com (spot XAU/USD)",
+   "u": "https://gold-api.com/"
   }
  ],
  "week52": {
-  "hi": 5595.46,
-  "lo": 3866.02,
-  "src": "Forbes Advisor, 6 Nov 2026",
-  "url": "https://www.forbes.com/advisor/investing/gold-price/"
+  "hi": 5318.4,
+  "lo": 3898.9,
+  "src": "Yahoo Finance GC=F daily closes, to 2026-11-12",
+  "url": "https://finance.yahoo.com/quote/GC=F/history/"
  },
  "kijang": [
   {
+   "d": "2026-11-12",
+   "sell": 17241.0,
+   "buy": 16544.0
+  },
+  {
+   "d": "2026-11-11",
+   "sell": 17415.0,
+   "buy": 16707.0
+  },
+  {
+   "d": "2026-11-10",
+   "sell": 17818.0,
+   "buy": 17101.0
+  },
+  {
    "d": "2026-11-06",
-   "sell": 17575,
-   "buy": 16870
+   "sell": 17575.0,
+   "buy": 16870.0
   },
   {
    "d": "2026-11-05",
-   "sell": 17521,
-   "buy": 16816
-  },
-  {
-   "d": "2026-11-04",
-   "sell": 17032,
-   "buy": 16353
-  },
-  {
-   "d": "2026-11-03",
-   "sell": 17068,
-   "buy": 16374
-  },
-  {
-   "d": "2026-11-02",
-   "sell": 16798,
-   "buy": 16122
+   "sell": 17521.0,
+   "buy": 16816.0
   }
  ],
  "fees": [
@@ -298,94 +304,49 @@
  ],
  "news": [
   {
-   "region": "Global",
-   "date": "2026-11-11T06:37:00Z",
+   "region": "US",
+   "date": "2026-11-12T03:40:00+00:00",
+   "auto": true,
    "h": {
-    "en": "Gold edges back above US$4,050 after CPI sell-off",
-    "zh": "CPI 抛售后金价回升至 4,050 美元上方"
-   },
-   "f": {
-    "en": "Spot gold was at US$4,057.33/oz at 06:37 GMT on 11 Nov, up about 0.6%, after Tuesday's near-3% drop. Analysts called it a technical bounce rather than a turn.",
-    "zh": "11月11日格林尼治时间 06:37 现货金报 4,057.33 美元/盎司，涨约 0.6%；周二曾跌近 3%。分析师认为这是技术性反弹而非趋势逆转。"
+    "en": "Gold falls to over one-week low on firm dollar, Fed rate hike bets",
+    "zh": "Gold falls to over one-week low on firm dollar, Fed rate hike bets"
    },
    "i": {
-    "en": "A rebound after a sharp fall can fade if rate-hike expectations stay high; buyers may see choppy prices this week.",
-    "zh": "大跌后的反弹在加息预期高企时可能难以持续，本周价格或较波动。"
+    "en": "Interest-rate news: higher US rates or yields usually weigh on gold; lower ones tend to support it.",
+    "zh": "利率消息：美国利率或收益率上升通常压制金价，下降则往往利好金价。"
    },
-   "s": "Trading & Investment News (Reuters)",
-   "u": "https://www.tradingandinvestmentnews.co.uk/gold-price-rebound-fed-hike-bets/"
+   "s": "Reuters",
+   "u": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPc09mRGRCVmlxTnVTdDR2Y0ktNjVkZE1xUHhyTnZWUGZvbFZFS2hsTFk1SkVfNE82SVZlMTFXbUFtckZMaDIwbzA5RlgxWUxKbE5ZMGhrRkl1UWFrVG9ibW9mdWlGM0NYRTVlQnZramhHSTVadmtEaFhWMDRFY1dYVWRPX1RzNm9YNURTVUVzeGo2aEo4UzZReXRCVlQ0amhjVGFWTU1BVFVQR1k?oc=5"
+  },
+  {
+   "region": "Malaysia",
+   "date": "2026-11-12T02:12:38+00:00",
+   "auto": true,
+   "h": {
+    "en": "International gold prices continue to hit new phase lows; Zijin Gold International plunges nearly 7%",
+    "zh": "International gold prices continue to hit new phase lows; Zijin Gold International plunges nearly 7%"
+   },
+   "i": {
+    "en": "Check the article for how this affects supply, demand, the dollar or interest rates.",
+    "zh": "请查看原文，了解其对供需、美元或利率的影响。"
+   },
+   "s": "Moomoo",
+   "u": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPSGxWQWM0NU96Uk16R2Zua0EzQXEyTmxPSUJLSG1mWlpRMi13SUc2cDZCN0NaSmp4Y1d2cUVrNnlPRjZDNzdmM3BYUm13WjlURmRwU013VTFlRE9uYVlCMzFuaXNheVZLRmpKa0hMQWxFdERSS3VqcXhQeHRFVklVU1VDc1hrT1pBNnpjSzFydjV4ZjZYMXktclhiOGtQWURrZ2F1V3RWZlFqUQ?oc=5"
   },
   {
    "region": "US",
-   "date": "2026-11-10T08:30:00-05:00",
+   "date": "2026-11-12T00:17:51+00:00",
+   "auto": true,
    "h": {
-    "en": "US October CPI comes in hotter than expected",
-    "zh": "美国10月 CPI 高于预期"
-   },
-   "f": {
-    "en": "Headline CPI rose 0.4% m/m (forecast 0.3%) and core rose 0.3% (forecast 0.2%). No year-on-year figure was published for October because of the 2025 shutdown data gap.",
-    "zh": "整体 CPI 环比升 0.4%（预期 0.3%），核心 CPI 升 0.3%（预期 0.2%）。因 2025 年政府停摆缺少数据，10月未公布同比数字。"
+    "en": "Gold falls as hot inflation figures, higher dollar weigh",
+    "zh": "Gold falls as hot inflation figures, higher dollar weigh"
    },
    "i": {
-    "en": "Sticky inflation keeps pressure on the Fed to raise rates, which tends to weigh on non-yielding gold.",
-    "zh": "通胀黏性令美联储维持加息压力，通常不利于无息的黄金。"
+    "en": "US dollar news: a stronger dollar usually makes gold cheaper in USD and dearer in other currencies.",
+    "zh": "美元消息：美元走强通常压低以美元计的金价，并推高以其他货币计的金价。"
    },
-   "s": "Kitco",
-   "u": "https://www.kitco.com/news/article/2026-11-10/gold-prices-down-2-day-us-cpi-rises-more-expected"
-  },
-  {
-   "region": "US",
-   "date": "2026-11-10T11:33:00-05:00",
-   "h": {
-    "en": "Gold falls nearly 3% as dollar and yields climb",
-    "zh": "美元及收益率上升，金价跌近 3%"
-   },
-   "f": {
-    "en": "Spot gold was down 2.8% at US$4,021.36 at 11:33 a.m. ET. A 25 bp December hike was seen as fully priced, and the odds of a 50 bp move rose to about 10.5%.",
-    "zh": "美东时间上午 11:33 现货金跌 2.8% 至 4,021.36 美元。市场已完全计入12月加息 25 个基点，加息 50 个基点概率升至约 10.5%。"
-   },
-   "i": {
-    "en": "Higher US rates and a firmer dollar raise the cost of holding gold and make it dearer for non-USD buyers.",
-    "zh": "美国利率上升和美元走强提高持有黄金的成本，并使非美元买家购金更贵。"
-   },
-   "s": "MINING.COM",
-   "u": "https://www.mining.com/web/gold-price-falls-nearly-3-as-cpi-tops-forecasts-lifting-dollar-and-yields/"
-  },
-  {
-   "region": "US",
-   "date": "2026-11-10T11:53:00Z",
-   "h": {
-    "en": "Fed's Waller backs a December hike, floats half-point option",
-    "zh": "美联储沃勒支持12月加息，并提及可加息半个百分点"
-   },
-   "f": {
-    "en": "Governor Christopher Waller said the Fed should raise rates next month and consider 50 bp if inflation worsens; FedWatch showed about 99% odds of a hike before the CPI release.",
-    "zh": "理事沃勒表示美联储下月应加息，若通胀恶化可考虑加息 50 个基点；CPI 公布前 FedWatch 显示加息概率约 99%。"
-   },
-   "i": {
-    "en": "Hawkish Fed talk lifts short-term yields, a headwind for gold in USD and in pegged HKD and AED.",
-    "zh": "美联储鹰派言论推高短期收益率，对以美元及挂钩的港元、迪拉姆计价的金价构成阻力。"
-   },
-   "s": "Business Recorder (Reuters)",
-   "u": "https://www.brecorder.com/news/40448265/gold-drops-1-on-hawkish-fed-comments-ahead-of-us-inflation-data"
-  },
-  {
-   "region": "US",
-   "date": "2026-11-11T00:00:00Z",
-   "h": {
-    "en": "US 10-year yield tops 5% after CPI",
-    "zh": "CPI 公布后美国10年期国债收益率突破 5%"
-   },
-   "f": {
-    "en": "The 10-year Treasury yield moved above 5% and markets priced a 100% chance of a hike at the 8–9 Dec meeting (88% for 25 bp, 12% for 50 bp). Brent fell to about US$91.",
-    "zh": "美国10年期国债收益率升破 5%，市场计入12月8–9日会议 100% 加息概率（25 个基点 88%，50 个基点 12%）。布伦特原油跌至约 91 美元。"
-   },
-   "i": {
-    "en": "Yields above 5% make bonds a stronger rival to gold; cheaper oil partly offsets this by easing inflation fears.",
-    "zh": "收益率逾 5% 使债券对黄金的竞争力增强；油价下跌缓解通胀担忧，可部分抵消。"
-   },
-   "s": "Mitrade",
-   "u": "https://www.mitrade.com/insights/commodity-analysis/gold/hotter-cpi-plunges-gold-yields-surge"
+   "s": "NST Online",
+   "u": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNRWtianhEWDBkZ19CWHFPNTB0bEc1ejNEYUVBLW9sWTRyMkZsbmg3eEtRY2FiRDRCQndMdGpxcFhYMU9ZUl9idHhYLV8zQWFpajN4RVRxejFNajNVZmYwYmxSa0UwakE2QkF4X2c0aWxCUnhHdFZXNlRmMS15RVpZa3pRWTZ6YkpQMExuYjh6VUVzcUVaRlBGaGg3bXFVdGdtNGlIR2lsQUkzTEVH0gGyAUFVX3lxTE1pYndDa3pKd3Y3amtWN1U5VHBKcEJacDBWWHFOV19YeVEtSGpsazJxUjBYazE2UlFkQ2c3QWY1NkZwZExYeEk2SndYNlIycHBmRkx3NURHYTU5VVZsZjJLLVo3VFh1eWJJVnN5MWlVQkJsWDZickRRM2VBUmhDQTR5czJTaW04TlhseV92RUZIMU9Ud2lfS1FiWTdjdWRQWG84eU5BNk1mQUpzWnRtUXhlc0E?oc=5"
   },
   {
    "region": "Malaysia",
@@ -424,66 +385,157 @@
    "u": "https://mediaselangor.com/en/2026/11/406190"
   },
   {
-   "region": "UAE",
-   "date": "2026-11-09T09:20:00+04:00",
+   "region": "Global",
+   "date": "2026-11-11T06:37:00Z",
    "h": {
-    "en": "Dubai 24K rises to AED 496.75/g as oil eases",
-    "zh": "油价回落，迪拜 24K 金价升至每克 496.75 迪拉姆"
+    "en": "Gold edges back above US$4,050 after CPI sell-off",
+    "zh": "CPI 抛售后金价回升至 4,050 美元上方"
    },
    "f": {
-    "en": "Dubai Jewellery Group data showed 24K at AED 496.75/g and 22K at AED 460 at Monday's open, up from AED 490.50 over the weekend.",
-    "zh": "迪拜珠宝集团数据显示周一开盘 24K 每克 496.75 迪拉姆，22K 每克 460 迪拉姆，周末为 490.50。"
+    "en": "Spot gold was at US$4,057.33/oz at 06:37 GMT on 11 Nov, up about 0.6%, after Tuesday's near-3% drop. Analysts called it a technical bounce rather than a turn.",
+    "zh": "11月11日格林尼治时间 06:37 现货金报 4,057.33 美元/盎司，涨约 0.6%；周二曾跌近 3%。分析师认为这是技术性反弹而非趋势逆转。"
    },
    "i": {
-    "en": "Rates set before Tuesday's CPI drop; Dubai prices track USD spot almost one-for-one because of the AED peg.",
-    "zh": "该价格早于周二 CPI 引发的下跌；由于迪拉姆挂钩美元，迪拜金价几乎与现货同步。"
+    "en": "A rebound after a sharp fall can fade if rate-hike expectations stay high; buyers may see choppy prices this week.",
+    "zh": "大跌后的反弹在加息预期高企时可能难以持续，本周价格或较波动。"
    },
-   "s": "Khaleej Times",
-   "u": "https://www.khaleejtimes.com/business/dubai-gold-prices-surge-higher-24k-gains-dh625-as-us-inflation-concerns-ease"
-  },
-  {
-   "region": "Hong Kong",
-   "date": "2026-11-05T00:00:00+08:00",
-   "h": {
-    "en": "Mainland buyers lift Hong Kong jewellery sales 22%",
-    "zh": "内地买家带动香港珠宝销售增长 22%"
-   },
-   "f": {
-    "en": "Hong Kong sales of jewellery, watches and valuable gifts rose 22% y/y to HK$45.8bn in the first nine months of 2026, the highest since 2019.",
-    "zh": "2026 年前九个月香港珠宝、钟表及贵重礼品销售同比增 22% 至 458 亿港元，为 2019 年以来最高。"
-   },
-   "i": {
-    "en": "Strong local demand supports retail premiums in Hong Kong even when spot prices dip.",
-    "zh": "本地需求强劲，即使现货回落，香港零售溢价仍获支撑。"
-   },
-   "s": "The Edge Malaysia",
-   "u": "https://theedgemalaysia.com/node/824673",
-   "background": true
+   "s": "Trading & Investment News (Reuters)",
+   "u": "https://www.tradingandinvestmentnews.co.uk/gold-price-rebound-fed-hike-bets/"
   },
   {
    "region": "Global",
-   "date": "2026-11-04T00:00:00Z",
+   "date": "2026-11-11T06:00:00+00:00",
+   "auto": true,
    "h": {
-    "en": "Central banks buy gold at fastest pace since 2024",
-    "zh": "各国央行购金速度为 2024 年以来最快"
-   },
-   "f": {
-    "en": "World Gold Council: central banks bought 321 t in Q3 2026, 42% above a year earlier.",
-    "zh": "世界黄金协会：2026 年第三季度央行购金 321 吨，同比增 42%。"
+    "en": "Why European Central Banks Want Their Gold Back",
+    "zh": "Why European Central Banks Want Their Gold Back"
    },
    "i": {
-    "en": "Steady official buying is a longer-term support; it rarely drives day-to-day moves.",
-    "zh": "官方持续购金是长期支撑因素，但很少主导日内波动。"
+    "en": "Central-bank demand is a longer-term support for gold; it rarely moves daily prices on its own.",
+    "zh": "央行需求是金价的长期支撑因素，单独很少左右日内价格。"
    },
-   "s": "Canadian Mining Report",
-   "u": "https://www.canadianminingreport.com/blog/central-banks-buy-gold-at-fastest-pace-since-2024-world-gold-council-says",
-   "background": true
+   "s": "Global Finance Magazine",
+   "u": "https://news.google.com/rss/articles/CBMif0FVX3lxTE85ejdwaWI5ZnQxMjhrNUNnWVo5azEyRTByalBOLWVlb29COVp4bmhWallsLXYxV2liNy12ZC1nSmIycFZWNDNoNmdKdklxWlNJRjNJQ2JlMUJwQUFYcU5uTWRnTmhaZ0ZFdTZuc2tzZ1lOSzRfeng4UkVZaC1aMzQ?oc=5"
+  },
+  {
+   "region": "UAE",
+   "date": "2026-11-11T05:42:22+00:00",
+   "auto": true,
+   "h": {
+    "en": "UAE gold prices today: Dubai rates rebound after nearly 3% plunge",
+    "zh": "UAE gold prices today: Dubai rates rebound after nearly 3% plunge"
+   },
+   "i": {
+    "en": "UAE: the dirham is pegged to the USD, so Dubai gold rates follow spot gold almost one-for-one.",
+    "zh": "阿联酋：迪拉姆与美元挂钩，迪拜金价几乎与现货同步。"
+   },
+   "s": "Khaleej Times",
+   "u": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOTGN2M1BYUkxjTzZ1OTJEd0FsSG1NM0pXanZGVGhuVUJvS3Rlbzc1VXJJRlBua0k3S2gxQkMyVkpTNTF1S1Z3Z3ZINV9peXNIdHRuRlI1NzN5WVpvZ3JFNGZkODVhZlc3WElmRmR4eWJxbU9yUW5LU2tRSGV1WWR4VmlaUGd5ZFVCMVMyaTZ0bmpNY3VqdmJoNHN2VXVsLUFscXUw0gGrAUFVX3lxTE14bUFUN015SHFRNF9PakVoTkdUM2kyOWNDV2RNWWJlN0lYNXFCaURDY1RER3A0YlI4MGhCTUZacUtxa1lDTlp4SlRfb29XWVh1SG9VZG16dm90SVdvZjlNdklFYkpXb0xlZ0l6clNhSXg5Q1lGX2gyeW5FaWNyelNkS09qWk1rOVpkdGNYT0Q5WnVMU05mR3ZQNWM1SjVBWm9JNlROQlFmWVE2UQ?oc=5"
+  },
+  {
+   "region": "Hong Kong",
+   "date": "2026-11-11T04:06:44+00:00",
+   "auto": true,
+   "h": {
+    "en": "Hong Kong Advances Plans for International Gold Trading Market",
+    "zh": "Hong Kong Advances Plans for International Gold Trading Market"
+   },
+   "i": {
+    "en": "Hong Kong: the HKD is pegged to the USD, so local gold tracks spot; demand from mainland China also matters.",
+    "zh": "香港：港元与美元挂钩，本地金价跟随现货；内地需求也有影响。"
+   },
+   "s": "OpenGov Asia",
+   "u": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNUjgwZlBIaTNSX3A2MmJ2cUwwb3JkZEw3TDBPR2dtTEUtYnFmdnV6OWVFVHd1cTNWOVppUndJOW8ybzBybHVFQ2ZHMWYyMXZXeU5UTUtBTjFGSlh5cjF0dlJyODJHN2RvX1pQRE9adkNsU0Z1a0hEdnlQcUd3MlFaRVBONkVDV3ZyV1JLbWt4bFU?oc=5"
+  },
+  {
+   "region": "US",
+   "date": "2026-11-11T00:00:00Z",
+   "h": {
+    "en": "US 10-year yield tops 5% after CPI",
+    "zh": "CPI 公布后美国10年期国债收益率突破 5%"
+   },
+   "f": {
+    "en": "The 10-year Treasury yield moved above 5% and markets priced a 100% chance of a hike at the 8–9 Dec meeting (88% for 25 bp, 12% for 50 bp). Brent fell to about US$91.",
+    "zh": "美国10年期国债收益率升破 5%，市场计入12月8–9日会议 100% 加息概率（25 个基点 88%，50 个基点 12%）。布伦特原油跌至约 91 美元。"
+   },
+   "i": {
+    "en": "Yields above 5% make bonds a stronger rival to gold; cheaper oil partly offsets this by easing inflation fears.",
+    "zh": "收益率逾 5% 使债券对黄金的竞争力增强；油价下跌缓解通胀担忧，可部分抵消。"
+   },
+   "s": "Mitrade",
+   "u": "https://www.mitrade.com/insights/commodity-analysis/gold/hotter-cpi-plunges-gold-yields-surge"
+  },
+  {
+   "region": "Global",
+   "date": "2026-11-10T23:19:14+00:00",
+   "auto": true,
+   "h": {
+    "en": "MAS opens gold vault to foreign central banks",
+    "zh": "MAS opens gold vault to foreign central banks"
+   },
+   "i": {
+    "en": "Central-bank demand is a longer-term support for gold; it rarely moves daily prices on its own.",
+    "zh": "央行需求是金价的长期支撑因素，单独很少左右日内价格。"
+   },
+   "s": "The Star",
+   "u": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQaWZySVVJU25neGJjbVRld0xHa3ZHdGY4SU5xUWFSeXpZaEc0Xzh0YVV1ci1XMTAyb1dGcUtrMXN1VFdfazI4djlFY2JLQzBRc0JWSDNCZmJWazZiVDN3Q0tEdm9RcTNvYnd5Yk1zTy1jN2Z0WktMbnZPOFI3UHlESG5Pd2ZRemtIemxzdU1WRURZekJXR21HajlvbFNaWm1ZdEdBUTA3dlhBQQ?oc=5"
+  },
+  {
+   "region": "UAE",
+   "date": "2026-11-10T16:03:00+00:00",
+   "auto": true,
+   "h": {
+    "en": "Gold Rate in UAE Today Falls to AED 485 as Hot US CPI Sends XAU/USD Toward $4,000",
+    "zh": "Gold Rate in UAE Today Falls to AED 485 as Hot US CPI Sends XAU/USD Toward $4,000"
+   },
+   "i": {
+    "en": "US dollar news: a stronger dollar usually makes gold cheaper in USD and dearer in other currencies.",
+    "zh": "美元消息：美元走强通常压低以美元计的金价，并推高以其他货币计的金价。"
+   },
+   "s": "Markets.com",
+   "u": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBRUk1WV2hXS19SLUw5YXJMMmNiUmNLeW9vSXp3MlB6TDNFbjZuY3NhQ2FvTjZOZjduS3pSQWQzVXNtNGdLa3B2aFVuaDFRaXlGSTVnSzR4UHpVQ20zd1ZmQ0lhX2kxWWR2RUpqQ2FtLUcyY0RQ?oc=5"
+  },
+  {
+   "region": "US",
+   "date": "2026-11-10T11:53:00Z",
+   "h": {
+    "en": "Fed's Waller backs a December hike, floats half-point option",
+    "zh": "美联储沃勒支持12月加息，并提及可加息半个百分点"
+   },
+   "f": {
+    "en": "Governor Christopher Waller said the Fed should raise rates next month and consider 50 bp if inflation worsens; FedWatch showed about 99% odds of a hike before the CPI release.",
+    "zh": "理事沃勒表示美联储下月应加息，若通胀恶化可考虑加息 50 个基点；CPI 公布前 FedWatch 显示加息概率约 99%。"
+   },
+   "i": {
+    "en": "Hawkish Fed talk lifts short-term yields, a headwind for gold in USD and in pegged HKD and AED.",
+    "zh": "美联储鹰派言论推高短期收益率，对以美元及挂钩的港元、迪拉姆计价的金价构成阻力。"
+   },
+   "s": "Business Recorder (Reuters)",
+   "u": "https://www.brecorder.com/news/40448265/gold-drops-1-on-hawkish-fed-comments-ahead-of-us-inflation-data"
+  },
+  {
+   "region": "US",
+   "date": "2026-11-10T11:33:00-05:00",
+   "h": {
+    "en": "Gold falls nearly 3% as dollar and yields climb",
+    "zh": "美元及收益率上升，金价跌近 3%"
+   },
+   "f": {
+    "en": "Spot gold was down 2.8% at US$4,021.36 at 11:33 a.m. ET. A 25 bp December hike was seen as fully priced, and the odds of a 50 bp move rose to about 10.5%.",
+    "zh": "美东时间上午 11:33 现货金跌 2.8% 至 4,021.36 美元。市场已完全计入12月加息 25 个基点，加息 50 个基点概率升至约 10.5%。"
+   },
+   "i": {
+    "en": "Higher US rates and a firmer dollar raise the cost of holding gold and make it dearer for non-USD buyers.",
+    "zh": "美国利率上升和美元走强提高持有黄金的成本，并使非美元买家购金更贵。"
+   },
+   "s": "MINING.COM",
+   "u": "https://www.mining.com/web/gold-price-falls-nearly-3-as-cpi-tops-forecasts-lifting-dollar-and-yields/"
   }
  ],
  "schemaVersion": 1,
  "lastRefresh": {
-  "at": "2026-11-11T23:37:09+08:00",
-  "by": "scheduled task",
-  "note": "Spot (06:37 GMT 11 Nov), prev close (10 Nov), USD/MYR (BNM ref 11 Nov), history and news updated. Kijang Emas not updated: BNM page returned only rows up to 27 Oct, older than stored data. HKD, week52, purity, fees unchanged."
+  "at": "2026-11-12T11:59:28+08:00",
+  "by": "GitHub Actions",
+  "note": "spot 3983.30; week52; MYR 4.0695; kijang 2026-11-12; news 10"
  }
 }
