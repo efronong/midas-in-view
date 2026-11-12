@@ -252,6 +252,18 @@ html.dark .hero h1{background-image:linear-gradient(105deg,#a67c34 0%,#c99c4e 30
 .pbar{position:relative;height:6px;border-radius:3px;background:var(--soft);margin-top:4px;min-width:90px}
 .pbar i{position:absolute;top:0;bottom:0;border-radius:3px;background:rgba(214,170,82,.35)}
 .pbar b{position:absolute;top:-3px;width:2px;height:12px;background:var(--gold)}
+
+.bell-dot{position:absolute;top:6px;right:7px;width:7px;height:7px;border-radius:50%;background:#2fb26a;display:none;box-shadow:0 0 0 2px var(--card-solid)}
+#bellBtn{position:relative}
+#bellBtn.on .bell-dot{display:block}
+.nmodal{position:fixed;inset:0;z-index:50;background:rgba(0,0,0,.35);display:flex;align-items:center;justify-content:center;padding:16px}
+.nmodal[hidden],.ref-btn[hidden],#nCode[hidden]{display:none!important}
+.nbox{max-width:440px;width:100%;background:var(--card-solid)!important}
+#nCode{width:100%;font:12px/1.4 ui-monospace,Menlo,monospace;border:1px solid var(--line);border-radius:8px;padding:8px;background:var(--soft);color:var(--ink);resize:none}
+.ref-btn{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);background:var(--card-solid);color:var(--ink);border-radius:999px;padding:7px 14px;font:inherit;font-size:13px;cursor:pointer}
+.ref-btn.primary{background:var(--on-bg);color:var(--on-ink);border-color:var(--on-bg)}
+@media (max-width:560px){.brand>div>span{font-size:14px}}
+@media (max-width:370px){.brand>div>span{display:none}}
 </style>
 </head>
 <body>
@@ -266,6 +278,7 @@ html.dark .hero h1{background-image:linear-gradient(105deg,#a67c34 0%,#c99c4e 30
       <div class="right-col"><div class="tools">
       <span class="ref-wrap"><span class="ref-tick" id="refTick" aria-hidden="true"><svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="#fff" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span>
       <button id="refBtn" class="theme-btn ref-circle" type="button" aria-label="Refresh data" title="Refresh"><svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 11a8 8 0 1 0-2.3 5.7"/><path d="M20 4v7h-7"/></svg></button></span>
+      <button id="bellBtn" class="theme-btn" type="button" aria-label="Daily notifications" title="Daily notifications"><svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8a6 6 0 1 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg><span class="bell-dot"></span></button>
       <button id="themeBtn" class="theme-btn" type="button" aria-label="Switch to dark mode" title="Dark / light mode">
         <svg class="ic-sun" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M5.3 18.7l1.6-1.6M17.1 6.9l1.6-1.6"/></svg>
         <svg class="ic-moon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.5 14.2A8.5 8.5 0 0 1 9.8 3.5a8.5 8.5 0 1 0 10.7 10.7z"/></svg>
@@ -279,6 +292,18 @@ html.dark .hero h1{background-image:linear-gradient(105deg,#a67c34 0%,#c99c4e 30
   </div>
 </header>
 
+<div class="nmodal" id="nModal" hidden>
+  <div class="nbox card" role="dialog" aria-modal="true" aria-labelledby="nTitle">
+    <h3 id="nTitle" style="margin:0 0 6px;font-size:17px"></h3>
+    <p class="note" id="nText" style="margin:0 0 10px"></p>
+    <textarea id="nCode" readonly rows="4" hidden></textarea>
+    <div style="display:flex;gap:8px;justify-content:flex-end;margin-top:10px;flex-wrap:wrap">
+      <button class="ref-btn" id="nCopy" type="button" hidden></button>
+      <button class="ref-btn" id="nAction" type="button" hidden></button>
+      <button class="ref-btn" id="nClose" type="button"></button>
+    </div>
+  </div>
+</div>
 <main class="wrap">
   <div class="hero"><div class="h1-stage"><h1 id="heroTitle" data-text="Midas in View">Midas in View</h1></div><p data-i18n="heroSub"></p></div>
   <div class="banner" data-i18n="banner"></div>
@@ -492,6 +517,12 @@ en:{
  pChecked:"Checked {d} · updated by hand", pSpread:"Published 2027 targets work out to RM {lo}–{hi} per gram ({k}) at today's exchange rate — a wide spread that shows how uncertain the outlook is. Bank targets are in US$; the RM figures assume today's USD/MYR rate.",
  pDisclaimer:"Predictions are estimates, not facts. Gold can move outside any range shown, and bank forecasts are often revised. This is research, not financial advice.",
  avg:"avg",
+ nTitle:"Daily price notification", nIntro:"Get a notification each morning at about 08:32 MYT when today's gold prices are updated.",
+ nNeedHome:"On iPhone, notifications only work from the Home Screen app. In Safari tap Share → Add to Home Screen, open Midas in View from that icon, then tap the bell again.",
+ nUnsupported:"This browser doesn't support web notifications.", nDenied:"Notifications are blocked for this site. Allow them in your device settings, then try again.",
+ nTurnOn:"Turn on", nClose:"Close", nCopy:"Copy code", nCopied:"Copied ✓",
+ nDone:"Notifications are on for this device. One last step: send this code to the site owner so the daily update can reach this device.",
+ nOn:"Notifications are on for this device. If you haven't yet, send this code to the site owner.", nTurnOff:"Turn off",
  appTitle:"Midas in View", heroSub:"Gold prices per gram in MYR, USD, HKD and AED — with making fees and the news that moves them.", appSub:"Malaysia · US · Hong Kong · UAE",
  nav1:"Daily prices", nav2:"Outlook", nav3:"MY retailers", nav4:"Online", nav5:"Making fees", nav6:"News",
  banner:"Prices update automatically every morning; tap ↻ for the latest live spot price. Each figure shows its source and time. FX rates marked \"approx.\" are estimates. This is not financial advice.",
@@ -552,6 +583,12 @@ zh:{
  pChecked:"{d} 核查 · 人工更新", pSpread:"按今日汇率换算，各机构 2027 年目标价约为每克 RM {lo}–{hi}（{k}）——分歧很大，说明前景高度不确定。银行目标以美元计；令吉数字按今日美元兑令吉汇率换算。",
  pDisclaimer:"预测仅为估算，并非事实。金价可能超出所示任何区间，银行预测也常被修订。本页仅供研究，不构成投资建议。",
  avg:"均价",
+ nTitle:"每日金价通知", nIntro:"每天早上约 08:32（马来西亚时间）金价更新后，向你发送通知。",
+ nNeedHome:"在 iPhone 上，通知只能通过主屏幕应用使用。请在 Safari 中点击 分享 → 添加到主屏幕，从该图标打开 Midas in View，再点击铃铛。",
+ nUnsupported:"此浏览器不支持网页通知。", nDenied:"此网站的通知已被阻止。请在设备设置中允许后再试。",
+ nTurnOn:"开启", nClose:"关闭", nCopy:"复制代码", nCopied:"已复制 ✓",
+ nDone:"此设备已开启通知。最后一步：把这段代码发给网站管理者，每日更新才能送达此设备。",
+ nOn:"此设备已开启通知。如尚未发送，请把这段代码发给网站管理者。", nTurnOff:"关闭通知",
  appTitle:"Midas in View", heroSub:"以令吉、美元、港元和迪拉姆计的每克金价——附工费比较及影响金价的新闻。", appSub:"马来西亚 · 美国 · 香港 · 阿联酋",
  nav1:"每日金价", nav2:"走势展望", nav3:"大马金店", nav4:"网购", nav5:"工费", nav6:"新闻",
  banner:"价格每天早上自动更新；点击 ↻ 可获取最新现货价。每项数据均注明来源和时间。标为“约值”的汇率为估算。本页不构成投资建议。",
@@ -812,6 +849,46 @@ loadData(false);
   hero.addEventListener("pointerleave",()=>h.style.transform="");
   hero.addEventListener("touchend",()=>setTimeout(()=>h.style.transform="",400));
 })();
+
+/* daily notifications (web push; on iPhone works from the Home Screen app) */
+const VAPID_PUBLIC="BIWmN9JhzEPdBaxrZQxGCGXRh2mHUMm5TjIhMacpeFCD4GbEqfX-NI1td4pByQOatFw6PwBH_NxIfzmEsUE9DpM";
+const nEl=id=>document.getElementById(id);
+const b64u=s=>{ const p="=".repeat((4-s.length%4)%4); const r=atob((s+p).replace(/-/g,"+").replace(/_/g,"/")); return Uint8Array.from([...r].map(c=>c.charCodeAt(0))); };
+const pushOK=()=>("serviceWorker" in navigator)&&("PushManager" in window)&&("Notification" in window);
+const isIOS=/iPhone|iPad|iPod/.test(navigator.userAgent)||(navigator.platform==="MacIntel"&&navigator.maxTouchPoints>1);
+const standalone=()=>matchMedia("(display-mode: standalone)").matches||navigator.standalone===true;
+let swReg=null;
+if("serviceWorker" in navigator){ navigator.serviceWorker.register("sw.js",{scope:"./"}).then(r=>{swReg=r; return r.pushManager&&r.pushManager.getSubscription();}).then(sub=>{ nEl("bellBtn").classList.toggle("on",!!sub); }).catch(()=>{}); }
+function nShow(text,{code=null,action=null,actionLabel=""}={}){
+  nEl("nTitle").textContent=t("nTitle"); nEl("nText").textContent=text; nEl("nClose").textContent=t("nClose");
+  const c=nEl("nCode"), cp=nEl("nCopy"), a=nEl("nAction");
+  c.hidden=cp.hidden=!code; if(code){ c.value=code; cp.textContent=t("nCopy"); }
+  a.hidden=!action; a.className="ref-btn primary"; if(action){ a.textContent=actionLabel; a.onclick=action; }
+  nEl("nModal").hidden=false;
+}
+nEl("nClose").onclick=()=>nEl("nModal").hidden=true;
+nEl("nModal").onclick=e=>{ if(e.target.id==="nModal") nEl("nModal").hidden=true; };
+nEl("nCopy").onclick=async()=>{ try{ await navigator.clipboard.writeText(nEl("nCode").value); nEl("nCopy").textContent=t("nCopied"); }catch(e){ nEl("nCode").select(); } };
+const subCode=sub=>JSON.stringify(sub.toJSON());
+async function subscribe(){
+  try{
+    const perm=await Notification.requestPermission();
+    if(perm!=="granted"){ nShow(t("nDenied")); return; }
+    const reg=swReg||await navigator.serviceWorker.ready;
+    const sub=await reg.pushManager.subscribe({userVisibleOnly:true,applicationServerKey:b64u(VAPID_PUBLIC)});
+    nEl("bellBtn").classList.add("on");
+    nShow(t("nDone"),{code:subCode(sub)});
+  }catch(e){ nShow(t("nUnsupported")+" ("+e.message+")"); }
+}
+nEl("bellBtn").onclick=async()=>{
+  if(isIOS && !standalone()){ nShow(t("nNeedHome")); return; }
+  if(!pushOK()){ nShow(t("nUnsupported")); return; }
+  if(Notification.permission==="denied"){ nShow(t("nDenied")); return; }
+  const reg=swReg||await navigator.serviceWorker.ready.catch(()=>null);
+  const sub=reg&&await reg.pushManager.getSubscription();
+  if(sub){ nShow(t("nOn"),{code:subCode(sub),action:async()=>{ await sub.unsubscribe(); nEl("bellBtn").classList.remove("on"); nEl("nModal").hidden=true; },actionLabel:t("nTurnOff")}); }
+  else nShow(t("nIntro"),{action:subscribe,actionLabel:t("nTurnOn")});
+};
 
 /* theme */
 const themeBtn=document.getElementById("themeBtn");
