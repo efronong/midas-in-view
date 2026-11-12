@@ -202,12 +202,12 @@
     "zh": "马来西亚"
    },
    "basis": {
-    "en": "Usually per gram (upah)",
-    "zh": "通常按克计（upah）"
+    "en": "Per gram",
+    "zh": "按克"
    },
    "range": {
-    "en": "≈ RM30–80 per gram above the gold price",
-    "zh": "每克约比金价高 RM30–80"
+    "en": "RM 30–80/g",
+    "zh": "每克 RM 30–80"
    },
    "status": "unverified",
    "note": {
@@ -223,12 +223,12 @@
     "zh": "阿联酋（迪拜）"
    },
    "basis": {
-    "en": "Per gram or % of metal value; negotiable",
-    "zh": "按克或按金值百分比；可议价"
+    "en": "Per gram or %",
+    "zh": "按克或百分比"
    },
    "range": {
-    "en": "Simple 22K pieces ≈ AED 10–25/g; Gold Souk often 5–8%; some shops cut fees to zero on promotions",
-    "zh": "简单 22K 款约每克 10–25 迪拉姆；黄金市场常见 5–8%；部分店铺促销时免工费"
+    "en": "AED 10–25/g (22K) · souk 5–8%",
+    "zh": "每克 10–25 迪拉姆（22K）· 金市 5–8%"
    },
    "status": "verified",
    "note": {
@@ -244,12 +244,12 @@
     "zh": "香港"
    },
    "basis": {
-    "en": "Flat labour fee per piece + 2% commission (priced-by-weight items)",
-    "zh": "每件固定工费 + 2% 佣金（按重量计价商品）"
+    "en": "Flat fee + 2%",
+    "zh": "固定工费 + 2%"
    },
    "range": {
-    "en": "Example: HK$200 craftsmanship fee + 2% (Chow Tai Fook); HK$250 labour on a 10 g ingot (Chow Sang Sang)",
-    "zh": "例：周大福工费 200 港元 + 2%；周生生 10 克金锭工费 250 港元"
+    "en": "HK$200–250 per piece + 2%",
+    "zh": "每件 200–250 港元 + 2%"
    },
    "status": "verified",
    "note": {
@@ -261,16 +261,16 @@
   },
   {
    "market": {
-    "en": "India (reference)",
-    "zh": "印度（参考）"
+    "en": "India",
+    "zh": "印度"
    },
    "basis": {
-    "en": "Mostly % of gold value, plus GST",
-    "zh": "多按金值百分比，另加商品及服务税"
+    "en": "% of value + GST",
+    "zh": "按金值百分比 + 消费税"
    },
    "range": {
-    "en": "≈ 8–25% of gold value",
-    "zh": "约金值的 8–25%"
+    "en": "8–25%",
+    "zh": "8–25%"
    },
    "status": "unverified",
    "note": {
@@ -279,27 +279,6 @@
    },
    "s": "Angel One",
    "u": "https://www.angelone.in/news/are-jewellery-making-charges-lower-in-dubai-gold-souk-or-india"
-  },
-  {
-   "market": {
-    "en": "Singapore, others",
-    "zh": "新加坡及其他"
-   },
-   "basis": {
-    "en": "—",
-    "zh": "—"
-   },
-   "range": {
-    "en": "Data unavailable",
-    "zh": "暂无数据"
-   },
-   "status": "unavailable",
-   "note": {
-    "en": "No reliable source found.",
-    "zh": "未找到可靠来源。"
-   },
-   "s": null,
-   "u": null
   }
  ],
  "news": [
