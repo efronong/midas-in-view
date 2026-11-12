@@ -235,6 +235,9 @@ html.dark .hero h1{background-image:linear-gradient(105deg,#a67c34 0%,#c99c4e 30
 @media (max-width:560px){.midas-hand{top:70px!important}.lastup{font-size:11px}.brand{font-size:15px;white-space:nowrap;gap:8px}.brand .logo{width:32px;height:32px}.theme-btn{width:32px;height:32px}.lang button{padding:5px 9px;font-size:12px}.tools{gap:5px}.ref-tick{width:18px;height:18px;margin-top:-9px;right:calc(100% + 4px)}}
 @media (max-width:360px){.brand>div>span{display:none}}
 
+.pnow{margin-bottom:12px;display:flex;flex-direction:column;gap:2px}
+.pnow-val{font-size:26px;font-weight:700;font-variant-numeric:tabular-nums;color:var(--gold)}
+.pnow-row td{background:var(--gold-soft)}
 .pstack{display:grid;gap:12px;grid-template-columns:minmax(0,1fr)}
 .pstack>*,.grid2>*,.grid4>*{min-width:0}
 #pBanks td:first-child{min-width:170px}
@@ -307,6 +310,7 @@ html.dark .hero h1{background-image:linear-gradient(105deg,#a67c34 0%,#c99c4e 30
   <section id="predict">
     <h2 data-i18n="pTitle"></h2>
     <p class="sub" data-i18n="pSub"></p>
+    <div class="card pnow" id="pNow"></div>
     <div class="pstack">
       <div class="card">
         <div style="display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;align-items:center">
@@ -474,14 +478,14 @@ const T = {
 en:{
  lastUpd:"Last updated", nextRef:"Auto-refresh daily at 08:32 MYT", checkBtn:"Refresh — loads the latest live spot price and exchange rates", checking:"Checking…", upToDate:"Already showing the latest data", gotNew:"Updated to the latest data", loadFail:"Couldn't reach the data file — showing saved data", ondemand:"Need a fresher price? Run the \"Midas in View daily refresh\" scheduled task now.",
  pTitle:"Gold price predictions", pSub:"Two different views: a statistical range worked out from recent price swings, and published forecasts from banks and institutions. Neither is certain.",
- pModelTitle:"Likely price range", pAuto:"Estimate · auto-updated daily", pBankTitle:"Bank & institution forecasts (USD/oz)",
+ pModelTitle:"Likely price range", pAuto:"Estimate · auto-updated daily", pBankTitle:"Bank & institution forecasts (RM per gram)",
  pHorizon:"Horizon", pLikely:"Likely range (≈2 in 3 chance)", pWide:"Wide range (≈19 in 20)", h1:"Tomorrow", h5:"1 week", h21:"1 month",
  trend_up:"Trend: rising", trend_down:"Trend: falling", trend_mixed:"Trend: mixed / sideways",
  pSig:"Spot {s} vs 20-day avg {a20} and 50-day avg {a50}; 20-day change {r}%.",
- pModelNote:"Based on the last 60 days of daily price moves (≈{v}% a day). Ranges are centred on today's price and do not predict direction. Source: {src}, as of {t}.",
+ pModelNote:"Based on the last 60 days of daily price moves (≈{v}% a day). Ranges are in RM per gram at today's exchange rate, centred on the current price, and do not predict direction. Source: {src}, as of {t}.",
  pNoModel:"The statistical range will appear after the next daily update.",
- pInst:"Institution", pTarget:"Forecast", pBy:"For", pVs:"vs today", pDate:"Published",
- pChecked:"Checked {d} · updated by hand", pSpread:"Published targets for 2027 range from US${lo} to US${hi}/oz — a wide spread that shows how uncertain the outlook is.",
+ pNowLbl:"Current {k} price in Malaysia ringgit", pNowRow:"Now", pInst:"Institution", pTarget:"Forecast", pBy:"For", pVs:"vs now", pDate:"Published",
+ pChecked:"Checked {d} · updated by hand", pSpread:"Published 2027 targets work out to RM {lo}–{hi} per gram ({k}) at today's exchange rate — a wide spread that shows how uncertain the outlook is. Bank targets are in US$; the RM figures assume today's USD/MYR rate.",
  pDisclaimer:"Predictions are estimates, not facts. Gold can move outside any range shown, and bank forecasts are often revised. This is research, not financial advice.",
  avg:"avg",
  appTitle:"Midas in View", heroSub:"Gold prices per gram in MYR, USD, HKD and AED — with making fees and the news that moves them.", appSub:"Malaysia · US · Hong Kong · UAE",
@@ -534,14 +538,14 @@ en:{
 zh:{
  lastUpd:"最后更新：", nextRef:"每日 08:32（马来西亚时间）自动更新", checkBtn:"刷新——载入最新现货金价和汇率", checking:"检查中…", upToDate:"已是最新数据", gotNew:"已更新至最新数据", loadFail:"无法读取数据文件——显示已保存数据", ondemand:"需要更新的价格？可立即运行“Midas in View daily refresh”定时任务。",
  pTitle:"金价预测", pSub:"两种不同的视角：根据近期价格波动计算的统计区间，以及银行和机构公布的预测。两者都不确定。",
- pModelTitle:"可能价格区间", pAuto:"估算 · 每日自动更新", pBankTitle:"银行与机构预测（美元/盎司）",
+ pModelTitle:"可能价格区间", pAuto:"估算 · 每日自动更新", pBankTitle:"银行与机构预测（令吉/克）",
  pHorizon:"时间", pLikely:"可能区间（约三分之二概率）", pWide:"较宽区间（约二十分之十九）", h1:"明天", h5:"1 周", h21:"1 个月",
  trend_up:"趋势：上升", trend_down:"趋势：下降", trend_mixed:"趋势：混合 / 横盘",
  pSig:"现货 {s}，20日均价 {a20}，50日均价 {a50}；20日变动 {r}%。",
- pModelNote:"依据过去 60 天的每日价格波动（约每天 {v}%）。区间以今日价格为中心，不预测方向。来源：{src}，截至 {t}。",
+ pModelNote:"依据过去 60 天的每日价格波动（约每天 {v}%）。区间以每克令吉计（按今日汇率），以当前价格为中心，不预测方向。来源：{src}，截至 {t}。",
  pNoModel:"统计区间将在下一次每日更新后显示。",
- pInst:"机构", pTarget:"预测", pBy:"时间", pVs:"较今日", pDate:"发布",
- pChecked:"{d} 核查 · 人工更新", pSpread:"各机构对 2027 年的目标价介于 {lo} 至 {hi} 美元/盎司之间——分歧很大，说明前景高度不确定。",
+ pNowLbl:"当前 {k} 令吉价格", pNowRow:"现在", pInst:"机构", pTarget:"预测", pBy:"时间", pVs:"较现在", pDate:"发布",
+ pChecked:"{d} 核查 · 人工更新", pSpread:"按今日汇率换算，各机构 2027 年目标价约为每克 RM {lo}–{hi}（{k}）——分歧很大，说明前景高度不确定。银行目标以美元计；令吉数字按今日美元兑令吉汇率换算。",
  pDisclaimer:"预测仅为估算，并非事实。金价可能超出所示任何区间，银行预测也常被修订。本页仅供研究，不构成投资建议。",
  avg:"均价",
  appTitle:"Midas in View", heroSub:"以令吉、美元、港元和迪拉姆计的每克金价——附工费比较及影响金价的新闻。", appSub:"马来西亚 · 美国 · 香港 · 阿联酋",
@@ -654,24 +658,34 @@ function renderPrices(){
   DATA.kijang.forEach(r=>kt.append(el("tr",{}, el("td",{text:fmtDate(r.d)}), el("td",{class:"num",text:"RM "+fmt(r.sell,0)}), el("td",{class:"num",text:"RM "+fmt(r.sell/OZ)}), el("td",{class:"num",text:"RM "+fmt(r.buy/OZ)}))));
 }
 function renderPredictions(){
-  const p=DATA.purity[state.purity], m=DATA.model, sp=DATA.spot.usdPerOz;
-  const usd=v=>"US$"+fmt(v,0), rm=v=>"RM "+fmt(perGram(v,"MYR",p));
+  const p=DATA.purity[state.purity], m=DATA.model, sp=DATA.spot.usdPerOz, pk={"999":"24K","916":"22K","750":"18K"}[state.purity];
+  const rmg=v=>perGram(v,"MYR",p), RM=v=>"RM "+fmt(rmg(v)), usd=v=>"US$"+fmt(v,0);
+  const nowG=rmg(sp), delta=v=>{ const d=rmg(v)-nowG; return (d>=0?"+":"−")+"RM "+fmt(Math.abs(d)); };
+  // current-price banner
+  const cur=document.getElementById("pNow"); cur.innerHTML="";
+  cur.append(el("div",{class:"small",text:t("pNowLbl").replace("{k}",pk)}),
+    el("div",{class:"pnow-val",text:"RM "+fmt(nowG)+" /g"}),
+    el("div",{class:"small",text:usd(sp)+"/oz · "+fmtTime(DATA.spot.at)+" · 1 USD = "+DATA.fx.MYR.rate+" MYR"}));
   const tr=document.getElementById("pTrend"), tb=document.getElementById("pRange"), note=document.getElementById("pModelNote");
   tr.innerHTML=""; tb.innerHTML="";
   if(!m){ note.textContent=t("pNoModel"); }
   else{
     const cls={up:"up",down:"down",mixed:"flat"}[m.trend];
     tr.append(el("span",{class:"tr-call "+cls,text:t("trend_"+m.trend)}),
-      el("span",{class:"tr-sig",text:t("pSig").replace("{s}",usd(m.spot)).replace("{a20}",usd(m.ma20)).replace("{a50}",usd(m.ma50)).replace("{r}",(m.ret20Pct>0?"+":"")+fmt(m.ret20Pct))}));
+      el("span",{class:"tr-sig",text:t("pSig").replace("{s}",RM(sp)).replace("{a20}",RM(m.ma20)).replace("{a50}",RM(m.ma50)).replace("{r}",(m.ret20Pct>0?"+":"")+fmt(m.ret20Pct))}));
     tb.append(el("tr",{}, el("th",{text:t("pHorizon")}), el("th",{text:t("pLikely")}), el("th",{text:t("pWide")})));
-    const lo=Math.min(...m.horizons.map(h=>h.lo95)), hi=Math.max(...m.horizons.map(h=>h.hi95)), pos=v=>((v-lo)/(hi-lo)*100).toFixed(1)+"%";
-    m.horizons.forEach(h=>{
+    // re-centre the model's percentage widths on the current price
+    const H=m.horizons.map(h=>({days:h.days, lo68:sp*h.lo68/m.spot, hi68:sp*h.hi68/m.spot, lo95:sp*h.lo95/m.spot, hi95:sp*h.hi95/m.spot}));
+    const lo=Math.min(...H.map(h=>h.lo95)), hi=Math.max(...H.map(h=>h.hi95)), pos=v=>((v-lo)/(hi-lo)*100).toFixed(1)+"%";
+    tb.append(el("tr",{class:"pnow-row"}, el("td",{}, el("strong",{text:t("pNowRow")})),
+      el("td",{class:"num",colspan:"2"}, el("strong",{text:"RM "+fmt(nowG)+" /g"}), el("span",{class:"small",text:"  ·  "+usd(sp)+"/oz"}))));
+    H.forEach(h=>{
       const bar=el("div",{class:"pbar"}); const band=el("i",{}); band.style.left=pos(h.lo68); band.style.right=(100-parseFloat(pos(h.hi68)))+"%";
-      const mid=el("b",{}); mid.style.left=pos(m.spot); bar.append(band,mid);
+      const mid=el("b",{}); mid.style.left=pos(sp); bar.append(band,mid);
       tb.append(el("tr",{},
         el("td",{}, el("strong",{text:t("h"+h.days)})),
-        el("td",{class:"num"}, el("div",{text:usd(h.lo68)+" – "+usd(h.hi68)}), el("div",{class:"small",text:rm(h.lo68)+" – "+rm(h.hi68).replace("RM ","")+" /g"}), bar),
-        el("td",{class:"num"}, el("div",{text:usd(h.lo95)+" – "+usd(h.hi95)}), el("div",{class:"small",text:rm(h.lo95)+" – "+rm(h.hi95).replace("RM ","")+" /g"}))
+        el("td",{class:"num"}, el("div",{text:RM(h.lo68)+" – "+fmt(rmg(h.hi68))}), el("div",{class:"small",text:delta(h.lo68)+" / "+delta(h.hi68)}), bar),
+        el("td",{class:"num"}, el("div",{text:RM(h.lo95)+" – "+fmt(rmg(h.hi95))}), el("div",{class:"small",text:delta(h.lo95)+" / "+delta(h.hi95)}))
       ));
     });
     note.textContent=t("pModelNote").replace("{v}",fmt(m.dailyVolPct)).replace("{src}",m.src).replace("{t}",fmtTime(m.asOf));
@@ -680,20 +694,22 @@ function renderPredictions(){
   if(!f) return;
   document.getElementById("pChecked").textContent=t("pChecked").replace("{d}",fmtDate(f.checked));
   bt.append(el("tr",{}, ...["pInst","pTarget","pBy","pVs","source"].map(k=>el("th",{text:t(k)}))));
+  bt.append(el("tr",{class:"pnow-row"}, el("td",{}, el("strong",{text:t("pNowRow")})),
+    el("td",{class:"num"}, el("strong",{text:"RM "+fmt(nowG)}), el("div",{class:"small",text:usd(sp)+"/oz"})), el("td",{text:"—"}), el("td",{text:"—"}), el("td",{}, link(DATA.spot.source.split(" (")[0], DATA.spot.url))));
   const y27=[];
   f.items.forEach(it=>{
     const v=Array.isArray(it.target)?it.target:[it.target], mid=(v[0]+v[v.length-1])/2;
     if(/2027/.test(it.horizon.en)) y27.push(...v);
-    const pct=(mid/sp-1)*100;
+    const pct=(mid/sp-1)*100, dRm=rmg(mid)-nowG;
     bt.append(el("tr",{},
       el("td",{}, el("strong",{text:it.inst}), el("div",{class:"small",text:L(it.note)})),
-      el("td",{class:"num"}, v.map(x=>fmt(x,0)).join("–")+(it.kind==="avg"?" ("+t("avg")+")":"")),
+      el("td",{class:"num"}, el("div",{text:"RM "+v.map(x=>fmt(rmg(x))).join("–")+(it.kind==="avg"?" ("+t("avg")+")":"")}), el("div",{class:"small",text:"US$"+v.map(x=>fmt(x,0)).join("–")+"/oz"})),
       el("td",{text:L(it.horizon)}),
-      el("td",{class:"num "+(pct>=0?"up":"down"),text:(pct>=0?"+":"")+fmt(pct,1)+"%"}),
+      el("td",{class:"num "+(pct>=0?"up":"down")}, el("div",{text:(dRm>=0?"+":"−")+"RM "+fmt(Math.abs(dRm))}), el("div",{class:"small",text:(pct>=0?"+":"")+fmt(pct,1)+"%"})),
       el("td",{}, link(it.s,it.u), el("div",{class:"small",text:fmtDate(it.date)}))
     ));
   });
-  if(y27.length) document.getElementById("pSpread").textContent=t("pSpread").replace("{lo}",fmt(Math.min(...y27),0)).replace("{hi}",fmt(Math.max(...y27),0));
+  if(y27.length) document.getElementById("pSpread").textContent=t("pSpread").replace("{lo}",fmt(rmg(Math.min(...y27)))).replace("{hi}",fmt(rmg(Math.max(...y27)))).replace("{k}",pk);
 }
 function renderFees(){
   const tb=document.getElementById("feeTable"); tb.innerHTML="";
