@@ -1,31 +1,31 @@
 {
- "checkedAt": "2026-11-17T16:22:30+08:00",
+ "checkedAt": "2026-11-18T15:51:39+08:00",
  "spot": {
-  "usdPerOz": 3867.95,
-  "prevCloseUsdPerOz": 3857.05,
-  "at": "2026-11-17T08:22:28Z",
+  "usdPerOz": 3770.05,
+  "prevCloseUsdPerOz": 3867.95,
+  "at": "2026-11-18T07:51:30Z",
   "status": "verified",
   "source": "gold-api.com (spot XAU/USD)",
   "url": "https://gold-api.com/",
-  "prevSource": "Previous daily reading (2026-11-16)",
+  "prevSource": "Previous daily reading (2026-11-17)",
   "prevUrl": "https://gold-api.com/"
  },
  "fx": {
   "MYR": {
-   "rate": 4.0942,
+   "rate": 4.0933,
    "status": "verified",
    "note": {
-    "en": "Daily reference rate from ExchangeRate-API (Tue, 17 Nov 2026).",
-    "zh": "ExchangeRate-API 每日参考汇率（Tue, 17 Nov 2026）。"
+    "en": "Daily reference rate from ExchangeRate-API (Wed, 18 Nov 2026).",
+    "zh": "ExchangeRate-API 每日参考汇率（Wed, 18 Nov 2026）。"
    },
    "url": "https://www.exchangerate-api.com/"
   },
   "HKD": {
-   "rate": 7.847,
+   "rate": 7.8462,
    "status": "verified",
    "note": {
-    "en": "Daily reference rate from ExchangeRate-API (Tue, 17 Nov 2026).",
-    "zh": "ExchangeRate-API 每日参考汇率（Tue, 17 Nov 2026）。"
+    "en": "Daily reference rate from ExchangeRate-API (Wed, 18 Nov 2026).",
+    "zh": "ExchangeRate-API 每日参考汇率（Wed, 18 Nov 2026）。"
    },
    "url": "https://www.exchangerate-api.com/"
   },
@@ -190,15 +190,26 @@
    "v": 3867.95,
    "s": "gold-api.com (spot XAU/USD)",
    "u": "https://gold-api.com/"
+  },
+  {
+   "d": "2026-11-18",
+   "v": 3770.05,
+   "s": "gold-api.com (spot XAU/USD)",
+   "u": "https://gold-api.com/"
   }
  ],
  "week52": {
   "hi": 5318.4,
-  "lo": 3853.0,
-  "src": "Yahoo Finance GC=F daily closes, to 2026-11-17",
+  "lo": 3768.1,
+  "src": "Yahoo Finance GC=F daily closes, to 2026-11-18",
   "url": "https://finance.yahoo.com/quote/GC=F/history/"
  },
  "kijang": [
+  {
+   "d": "2026-11-18",
+   "sell": 16695.0,
+   "buy": 16044.0
+  },
   {
    "d": "2026-11-17",
    "sell": 16776.0,
@@ -218,11 +229,6 @@
    "d": "2026-11-12",
    "sell": 17241.0,
    "buy": 16544.0
-  },
-  {
-   "d": "2026-11-11",
-   "sell": 17415.0,
-   "buy": 16707.0
   }
  ],
  "fees": [
@@ -313,109 +319,109 @@
  ],
  "news": [
   {
-   "region": "Hong Kong",
-   "date": "2026-11-17T08:10:29+00:00",
+   "region": "Malaysia",
+   "date": "2026-11-18T07:09:00+00:00",
    "auto": true,
    "h": {
-    "en": "Gold for England and Malaysia in Hong Kong International Bowls Classic pairs",
-    "zh": "Gold for England and Malaysia in Hong Kong International Bowls Classic pairs"
+    "en": "Gold slips to over one-year low on firm dollar, US rate outlook",
+    "zh": "Gold slips to over one-year low on firm dollar, US rate outlook"
    },
    "i": {
-    "en": "Ringgit news: a stronger ringgit makes gold slightly cheaper in RM, even if USD gold is flat.",
-    "zh": "马币消息：即使美元金价不变，马币走强也会使以令吉计的金价略降。"
+    "en": "US dollar news: a stronger dollar usually makes gold cheaper in USD and dearer in other currencies.",
+    "zh": "美元消息：美元走强通常压低以美元计的金价，并推高以其他货币计的金价。"
    },
-   "s": "Bowls international",
-   "u": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZkRoa1ZnbVNtYmdudTVZRW9OQ1ktZnk2V1JzdVI4U2l6NFowSld0elI4elJTSDRDcmNUZ3B4dzNEX012RDFya0VMQ3Z2aWE2TERsc21UTUhmaGVKaUZ1UnEwb2E1LU1sS1RnX19kQkpHRmdCWDRwMWx2am9YZEJCT0xISWpTcEM4X0RvaUd1UDJiQ0E5VFdHVFZNT09EamVPemxpbkhiZThiVVhB?oc=5"
-  },
-  {
-   "region": "US",
-   "date": "2026-11-17T06:48:31+00:00",
-   "auto": true,
-   "h": {
-    "en": "Gold hovers near 1-year low as dollar rallies, Fed rate hike bets grow",
-    "zh": "Gold hovers near 1-year low as dollar rallies, Fed rate hike bets grow"
-   },
-   "i": {
-    "en": "Interest-rate news: higher US rates or yields usually weigh on gold; lower ones tend to support it.",
-    "zh": "利率消息：美国利率或收益率上升通常压制金价，下降则往往利好金价。"
-   },
-   "s": "Anadolu Ajansı",
-   "u": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQNTJiRjB0MFROZnh0MXNGMlcyUV8xZFpCM2VtNmVNdUV2MlVFTm5taWVVTGdtamtrMmhuYTNveFlUSDU3b085cDZCQUtZT1hWalVtTzF3NlhJLUU2dmUtV0wyTVdxR3J5NTZvbjd1dHJ0a1ZEM0VUTDdRMnB0Ynk1SEFnV3pBd1oyUlhLUkkzMThuVUhwTVdOb1d5R3cxU3BwaE5YNV9JZHpQbE5kLWtj?oc=5"
+   "s": "The Star",
+   "u": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQRGtCQjFoY2xaQlo2aVB0bmhoQko0OHNycmZ1eFBaS0paWnBQRjJtZmRzUk9qTzBYV09kdUlQWnp5MlZHNk00LWN2aVQ4NVNGWFBJeWJGUVYyYUNXZkNYYVl2N0RXLVQyNE1SaUdINTNLMHZQZEt2anRKekpsREp1QnFJcE5uNGhfN2VrdHpqc2VyZWdnYUczTEZXQXVvSWRjamFBT3BZZXdhZ2h6WllGWkNiSGZCMjdxZ1BkWkZjRkQ?oc=5"
   },
   {
    "region": "UAE",
-   "date": "2026-11-17T05:42:42+00:00",
+   "date": "2026-11-18T07:04:16+00:00",
    "auto": true,
    "h": {
-    "en": "Dubai gold prices edge higher but remain close to one-year low",
-    "zh": "Dubai gold prices edge higher but remain close to one-year low"
+    "en": "Dubai gold prices plunge Dh8 overnight to year's lowest as shoppers eye bargains",
+    "zh": "Dubai gold prices plunge Dh8 overnight to year's lowest as shoppers eye bargains"
+   },
+   "i": {
+    "en": "UAE: the dirham is pegged to the USD, so Dubai gold rates follow spot gold almost one-for-one.",
+    "zh": "阿联酋：迪拉姆与美元挂钩，迪拜金价几乎与现货同步。"
+   },
+   "s": "Gulf News",
+   "u": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQS0VodVh5bGVldmdpTTNrcTlnWC1rWkJqMkxNYVFURzExQW90ZUFJU2Z4SUhWRkl3ZnJrdjJ6dy1pVFZGaml1Qy1wNVh1M0FEVUczRFA0dS0wcVc1VmNXRjdmNzdqVkxhVllVT3F1Q09ZSnc5X1B3LS1va3lfc3ozM2p1TTh6Uno1ZTFmX1dNV0YzT0VSUzd5Wm8zWkM1UVRNSUkxMTlsQVFGRXZKZ0gzdkgxZDRYR2t1bkZLaHJualB6eUdZMk1maNIB2wFBVV95cUxPblB4d2pqV2V5UDQtNzczdkRGRzg1QjZadTByN3ItNjJObWdqQ1hLZ3otMjV4VGlDM0hmZjQ5emNiZTljdHB2WjNzUzJGYW80UGVYUF96QVdYWnFjVzRnOV9rMHlfeFdoRjhQbUl0RGRJYWFJbVJHQTJuaHZ1MHRVMmthNnk2WmV3UXF4OGxycEFzX3NMNWhrTUxfTnF6dWJsZkhIVWFvbnZSWjAzdlg5QTNmZDNMUkg3SHNLRnF4NUhfcm5tWlFFUkR3aVNQQXRLc0RSNjIzLXhGems?oc=5"
+  },
+  {
+   "region": "UAE",
+   "date": "2026-11-18T05:27:08+00:00",
+   "auto": true,
+   "h": {
+    "en": "Dubai gold prices fall further to lowest level in 2026",
+    "zh": "Dubai gold prices fall further to lowest level in 2026"
    },
    "i": {
     "en": "UAE: the dirham is pegged to the USD, so Dubai gold rates follow spot gold almost one-for-one.",
     "zh": "阿联酋：迪拉姆与美元挂钩，迪拜金价几乎与现货同步。"
    },
    "s": "Khaleej Times",
-   "u": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdW5FX2hsSC1jWUs4NzBnQmtmMEk2aWp6QkM2c3RVZ0tkbC1OZEVWcnM4c1FkdEJEbmtUYjlzQlIyX0RKN1otcGN1YV9wWFUxVjMyWm5DZER4MFpQOVBhMmxiRE5Ha1habThtTjB3c2NHUGNtV1JVQUxQVE9YUEZvRS15QW1JaWN4bWhKY09GRGFnLWYzYlZYcUF0U3hTSUFaNlHSAaoBQVVfeXFMTzNyNm9xU2h1cGxLeTYtWFB3ODRIYmEySGtEQU9TdExuN1BsWVByeEI3MTRWaF9nMGpUZHdEUHJ2aHdlMXUwV09leWI4U2VnY3BvZFY4aXc4UkNlUHlDSUJYRmVCb0RnbV9YeWh2WTNadVlGNmMzRWdEMFk1cmdYNlV2VjA2RjcxYUNmX05KdjJvLV84ZnFuWTdOYU81WW94d1Q2U2thUlVVTmc?oc=5"
+   "u": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOTFVzX2JlMWdOS2ttS29PcWk0NnlPbVBDU0FFUFpxcEx0Y1VmUEc2dGs3S0xncUZ4aTFBTzlCbFM5OFdZeWFDUUZBOThjUTc0bUM4SEdRbWNKN0t6WmxKT19CaGI4M1NpSjlQaWdBUVlyY0JlcEx0WVhza05OaTFsUkFrNVMtZEoxdlNpNNIBlAFBVV95cUxQS1FWbzk2RDlfMHpMS08tdUItY05wNHNUNy1ncHNmQkVtMktWbEtjN21wNXExTjVNRnk3ekZScWNtNnllSTRNdHgzZFhYa1RnUkhpMWRHbWphTVNDVVhIQTk4T0dNaVRJazNrdGpvLVQ1c2szTlg3Rkt0ZXVpMGVuUFZ3UWQtNHNQdzM3Smtma3VWWG12?oc=5"
   },
   {
    "region": "Hong Kong",
-   "date": "2026-11-17T02:00:12+00:00",
+   "date": "2026-11-18T04:28:07+00:00",
    "auto": true,
    "h": {
-    "en": "How fears over Western finance could boost the gold push of Hong Kong, Singapore",
-    "zh": "How fears over Western finance could boost the gold push of Hong Kong, Singapore"
-   },
-   "i": {
-    "en": "Hong Kong: the HKD is pegged to the USD, so local gold tracks spot; demand from mainland China also matters.",
-    "zh": "香港：港元与美元挂钩，本地金价跟随现货；内地需求也有影响。"
-   },
-   "s": "South China Morning Post",
-   "u": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNU2dIZ2ZRa3JsM3Fhcl9rbDlvaTlwMTMzY3ZKWGRwR0tvX28yZ0FZdENjOWctSmNEaGh3d0gxS3plbGk1VHd2MUl2SXFfTFpuZk5NeVhWWnppNmZUYkR3QTdsWXNZWUx0aHFzVmQwYUV0MTdrODZqeW4zNERYTk9idk5MXzVNZUxvTmNNMmF5MUpVQ3VsaFBUWGF1ZjFBUk1PNUt1T19fYm5hVXA4NFhzOWN1LXdBaWlSSHhpZ1N1ZDZpLUlEWmIwQWpPRExzLXF6?oc=5"
-  },
-  {
-   "region": "US",
-   "date": "2026-11-17T01:26:00+00:00",
-   "auto": true,
-   "h": {
-    "en": "Gold Falls to One-Year Low, Down 31% From Record High; Headed for Worst Annual Decline Since 2015",
-    "zh": "Gold Falls to One-Year Low, Down 31% From Record High; Headed for Worst Annual Decline Since 2015"
-   },
-   "i": {
-    "en": "Check the article for how this affects supply, demand, the dollar or interest rates.",
-    "zh": "请查看原文，了解其对供需、美元或利率的影响。"
-   },
-   "s": "BigGo Finance",
-   "u": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0waGE0c2k5eHMzSFdUWXNFYnhyc2hFSEp5bDlpLWRkTlotb05rdG8zdnRhdVNhNkRoOFBfQUVTLWxiVkIyV000V1pyemRWNmRNWVdZSnRIMHlFWDZRNkpQVWdESXRVRF9sYjFHR3B5aE84MDJ2R1E?oc=5"
-  },
-  {
-   "region": "Malaysia",
-   "date": "2026-11-17T01:14:07+00:00",
-   "auto": true,
-   "h": {
-    "en": "Gold lingers near more-than-one-year low on Fed hike bets",
-    "zh": "Gold lingers near more-than-one-year low on Fed hike bets"
+    "en": "Hong Kong Stock Market Update | Gold stocks extend losses as hawkish comments from multiple Federal Reserve officials exert downward pressure on gold prices",
+    "zh": "Hong Kong Stock Market Update | Gold stocks extend losses as hawkish comments from multiple Federal Reserve officials exert downward pressure on gold prices"
    },
    "i": {
     "en": "Interest-rate news: higher US rates or yields usually weigh on gold; lower ones tend to support it.",
     "zh": "利率消息：美国利率或收益率上升通常压制金价，下降则往往利好金价。"
    },
-   "s": "The Edge Malaysia",
-   "u": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9pbmFoa01KaHctNkFqRUhuQ0lIZG1LVEJuQzR0T0t0RVNodXg0a3B6RnhBbTFvajBXczBLUU14aFloUGhFRGxIZ0Ewc0VOZzhZ?oc=5"
+   "s": "Moomoo",
+   "u": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOcFlRb1gwUTVERU1CcVFEekowYWUxQ0VDYXpTM0Y5cmU2LVNhenBNVVZ4WksyR0lxS2tZMzZ4WGU3bkhCN20tMzFiZTU4NFdqck9TRERVUDlQbmEtWURLeGd0b29ma19fZFZqclZYNkJRLUJGOUVtdFdSWl82VVQ1dFlVQ1dqek5vZ3NrUDhnQUVhSXZRNi1RVGt6M3V0eW1zUGtsdw?oc=5"
+  },
+  {
+   "region": "US",
+   "date": "2026-11-18T02:55:00+00:00",
+   "auto": true,
+   "h": {
+    "en": "Gold Plunges Below $3,800 to 14-Month Low as Fed's Hawkish Signals Crush Bulls",
+    "zh": "Gold Plunges Below $3,800 to 14-Month Low as Fed's Hawkish Signals Crush Bulls"
+   },
+   "i": {
+    "en": "Interest-rate news: higher US rates or yields usually weigh on gold; lower ones tend to support it.",
+    "zh": "利率消息：美国利率或收益率上升通常压制金价，下降则往往利好金价。"
+   },
+   "s": "BigGo Finance",
+   "u": "https://news.google.com/rss/articles/CBMidkFVX3lxTE41SjZESWFGZUFYRmQxeTVFWVRTemlXMllxRXdCU1JSbDBDc253WlR2eE1tTlRpZkpld05YRG9naVczaUVYX1p0Mjh0UmlqRmFiV0ttVW5MeUhDYVlHVXVfWmtNUWttSmpYOTU4THZlRHFmdmY0Ymc?oc=5"
   },
   {
    "region": "Malaysia",
-   "date": "2026-11-17T00:29:36+00:00",
+   "date": "2026-11-18T02:34:35+00:00",
    "auto": true,
    "h": {
-    "en": "Gold drops to more than one-year low as US dollar marches higher",
-    "zh": "Gold drops to more than one-year low as US dollar marches higher"
+    "en": "Gold rises on bargain hunting but heads for weekly decline",
+    "zh": "Gold rises on bargain hunting but heads for weekly decline"
    },
    "i": {
-    "en": "US dollar news: a stronger dollar usually makes gold cheaper in USD and dearer in other currencies.",
-    "zh": "美元消息：美元走强通常压低以美元计的金价，并推高以其他货币计的金价。"
+    "en": "Check the article for how this affects supply, demand, the dollar or interest rates.",
+    "zh": "请查看原文，了解其对供需、美元或利率的影响。"
    },
-   "s": "NST Online",
-   "u": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPZHhUeURqVEJNRkloM1NGWEZZTzlxdjFFZTV3eVBPVHNYZmJmRHFCTE90bzZSX3NJczN3ajB2VWRrMGVFaEg0aUhjTmdDdW56WTdPRGs4Skt3Q0dEUl8tY0pwVlpCUUVfaHFoYkU0ZnFhV3RIM0E1aFJVWWNXdWJJa1lKbDdYei1seXppNHNRLW1NajJiZE8zVnZtZlFzLTdOZzNhRHdmZWRDekI5U3fSAbMBQVVfeXFMT1ItdlVLVXFhejlTelVISDJaa0xicmN6M0FMOVdoMmhTYTRrQ05td1c5bHdqRk8tS3hZM0N5UkNwdmlnV1c0clFRLTJWS3F3cXA5cXZCNEhsMzBKWjU5amVQeVB3WVpDOXVBb0g4a1Foa203SE1jLTFlWk9zSzRPRWt2cUlFdDBFV25uWHc5aExKRFNlcEx3NmFBVGptOVN5Ny1vNUlMX1dEMDlpMjU2eG4wS3c?oc=5"
+   "s": "The Edge Malaysia",
+   "u": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBsZmZMb1V5Vkp6RWJNX1NWTGlzWkswTHBwVWgzS1J6d0dwaHhLVHlUSEVWUFZrcXVnWkE2blNkaHh1TW1LV2dZTXdLTndDUzdI?oc=5"
+  },
+  {
+   "region": "US",
+   "date": "2026-11-17T18:02:58+00:00",
+   "auto": true,
+   "h": {
+    "en": "Will Gold Prices Rise After the Fed's Expected December Rate Hike?",
+    "zh": "Will Gold Prices Rise After the Fed's Expected December Rate Hike?"
+   },
+   "i": {
+    "en": "Interest-rate news: higher US rates or yields usually weigh on gold; lower ones tend to support it.",
+    "zh": "利率消息：美国利率或收益率上升通常压制金价，下降则往往利好金价。"
+   },
+   "s": "Yahoo Finance",
+   "u": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQbWctLXJnSWdVYW5Tcjh2S09STExVTWFuMWM4NFdnTjRFQ216c00xOVBRVUFPQ25JTDRkb1Uzd19ua2pyRkpRZ3hYZ2xxellPVjFyMGJQYkN3dVBUUnByVEhITzJKM1U3c3ZtM2tFSEd4SlRlMjlvbDhTUWd3czd5cFJrOTFCTWlCUDFOVzNwdU4ySTgxX2RHYWlDYS1laXUtN3c?oc=5"
   },
   {
    "region": "Global",
@@ -448,19 +454,19 @@
    "u": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNeTljY01La3J6SE1neWtkc1cybEJubWpzR3JheWFaVTVZSnkzMWpkbzJ4d2F5bEhYck10UzF2bDVPZEVneDI4V1FkY3F1U0d0TC1ZSFpzbVpzRUVNZjVJdU9rYllfbFlsSXI3ZHJYLXFOOEFENHNyQVI4a0NpU0NOQlNQaWJnMVJ0UlBIRmxXOFZvVXdERlcwLW1DWk9sSE44dFpLMWVJUTY2S2o5Vm9Pc254WTQ5VFJSMzRuX3o0OA?oc=5"
   },
   {
-   "region": "UAE",
-   "date": "2026-11-16T14:26:39+00:00",
+   "region": "Hong Kong",
+   "date": "2026-11-16T01:27:32+00:00",
    "auto": true,
    "h": {
-    "en": "UAE gold now at its cheapest this year: Buy now or wait for another drop?",
-    "zh": "UAE gold now at its cheapest this year: Buy now or wait for another drop?"
+    "en": "Hong Kong China Claim Double Gold at Asia Rugby Emirates U20 Sevens 2026",
+    "zh": "Hong Kong China Claim Double Gold at Asia Rugby Emirates U20 Sevens 2026"
    },
    "i": {
     "en": "UAE: the dirham is pegged to the USD, so Dubai gold rates follow spot gold almost one-for-one.",
     "zh": "阿联酋：迪拉姆与美元挂钩，迪拜金价几乎与现货同步。"
    },
-   "s": "Gulf News",
-   "u": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQNnBtRE1ndWJvZ1ZaeFZGZF9iOENKcTRVNkZiRm1ENGZtdVFWa1I1QXE0Ujc5OU12c0FYTC1WV0ZlWTNGd0hCZ2t5dUJJb0JuSW5BdTJrQTY4ejJSOFBQY0xmWUdrVHN5WVRQNUtCcC03RnlfekZHckFYWTZwU05rWnYxb2VnZUk4UHRLM3Z5TVZ0cE1zSXBtU3ZfaHFQSTl2Ujl0RThZOUtadUplQlZ0REplSHhWU1g5bXAwMtIBzwFBVV95cUxPZVI4akxNb1M5OHlvc0lrR1MyejNac1AxU3h6Ym5mUjFlZnVZZ0dCU05sVFZGVlhsNWV0cUNwVW1PTWZ1MDM1Rjh2SlJMb20zUmpOYVFqSU16U2c3WUFEVkFrVmhTUXcteUhMU1lxOFkwXzJZeFhScmNybnBieFFicC1xdlZNRUVENzhhUjlKeWJNYnpQb3RPVmlYU1lLZjliUkdZcVNvVm5LMjNTeDl0d0RaYVdkempMQ3dFaGFRWk9nemdMQWFmQTNDX2RFbEU?oc=5"
+   "s": "Asia Rugby",
+   "u": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQZFBhUFdOYUhmMnJ5RWc3eEN3dE5ad2lGX0pBaUw1RDZXQUhfNkZPMnlrbzdLUmgyeXhmZlNEaEhXYmZJZkNIbWxuckQ2ZTZUdHVfU1JXTC1mOVVsbmxNclZKMUtvdTI2UGhRWUp2RW5DLTF4c1g4amc2STNwX1NJREJCQV9RSlJCOEF2YTBzSE1sRUxMSGpnYWlwczY3amo3WnNpOHJrQkZMMGZwcjVzZmlBSlhFQlE?oc=5"
   },
   {
    "region": "Malaysia",
@@ -537,9 +543,9 @@
  ],
  "schemaVersion": 1,
  "lastRefresh": {
-  "at": "2026-11-17T16:22:30+08:00",
+  "at": "2026-11-18T15:51:39+08:00",
   "by": "GitHub Actions",
-  "note": "spot 3867.95; week52; model down; MYR 4.0942; kijang 2026-11-17; news 10"
+  "note": "spot 3770.05; week52; model down; MYR 4.0933; kijang 2026-11-18; news 10"
  },
  "forecasts": {
   "checked": "2026-11-12",
@@ -678,35 +684,35 @@
   ]
  },
  "model": {
-  "asOf": "2026-11-17T16:22:30+08:00",
-  "spot": 3867.95,
-  "dailyVolPct": 1.31,
-  "annualVolPct": 20.8,
-  "ma20": 4006.0,
-  "ma50": 4157.57,
-  "ret20Pct": -6.68,
+  "asOf": "2026-11-18T15:51:39+08:00",
+  "spot": 3770.05,
+  "dailyVolPct": 1.34,
+  "annualVolPct": 21.2,
+  "ma20": 3986.83,
+  "ma50": 4143.69,
+  "ret20Pct": -9.2,
   "trend": "down",
   "horizons": [
    {
     "days": 1,
-    "lo68": 3817.67,
-    "hi68": 3918.89,
-    "lo95": 3770.01,
-    "hi95": 3968.43
+    "lo68": 3719.96,
+    "hi68": 3820.81,
+    "lo95": 3672.51,
+    "hi95": 3870.18
    },
    {
     "days": 5,
-    "lo68": 3756.42,
-    "hi68": 3982.79,
-    "lo95": 3652.38,
-    "hi95": 4096.25
+    "lo68": 3658.97,
+    "hi68": 3884.5,
+    "lo95": 3555.42,
+    "hi95": 3997.63
    },
    {
     "days": 21,
-    "lo68": 3642.84,
-    "hi68": 4106.97,
-    "lo95": 3439.07,
-    "hi95": 4350.32
+    "lo68": 3545.93,
+    "hi68": 4008.34,
+    "lo95": 3343.32,
+    "hi95": 4251.25
    }
   ],
   "method": "60-day volatility of COMEX gold daily closes (Yahoo Finance GC=F); ranges centred on today's spot with no assumed direction",
