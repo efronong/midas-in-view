@@ -1,31 +1,31 @@
 {
- "checkedAt": "2026-11-21T15:37:15+08:00",
+ "checkedAt": "2026-11-22T15:19:24+08:00",
  "spot": {
   "usdPerOz": 3539.0,
-  "prevCloseUsdPerOz": 3552.05,
-  "at": "2026-11-21T07:37:07Z",
+  "prevCloseUsdPerOz": 3539.0,
+  "at": "2026-11-22T07:19:09Z",
   "status": "verified",
   "source": "gold-api.com (spot XAU/USD)",
   "url": "https://gold-api.com/",
-  "prevSource": "Previous daily reading (2026-11-20)",
+  "prevSource": "Previous daily reading (2026-11-21)",
   "prevUrl": "https://gold-api.com/"
  },
  "fx": {
   "MYR": {
-   "rate": 4.1127,
+   "rate": 4.1128,
    "status": "verified",
    "note": {
-    "en": "Daily reference rate from ExchangeRate-API (Fri, 20 Nov 2026).",
-    "zh": "ExchangeRate-API 每日参考汇率（Fri, 20 Nov 2026）。"
+    "en": "Daily reference rate from ExchangeRate-API (Sun, 22 Nov 2026).",
+    "zh": "ExchangeRate-API 每日参考汇率（Sun, 22 Nov 2026）。"
    },
    "url": "https://www.exchangerate-api.com/"
   },
   "HKD": {
-   "rate": 7.8443,
+   "rate": 7.8387,
    "status": "verified",
    "note": {
-    "en": "Daily reference rate from ExchangeRate-API (Fri, 20 Nov 2026).",
-    "zh": "ExchangeRate-API 每日参考汇率（Fri, 20 Nov 2026）。"
+    "en": "Daily reference rate from ExchangeRate-API (Sun, 22 Nov 2026).",
+    "zh": "ExchangeRate-API 每日参考汇率（Sun, 22 Nov 2026）。"
    },
    "url": "https://www.exchangerate-api.com/"
   },
@@ -214,6 +214,12 @@
    "v": 3539.0,
    "s": "gold-api.com (spot XAU/USD)",
    "u": "https://gold-api.com/"
+  },
+  {
+   "d": "2026-11-22",
+   "v": 3539.0,
+   "s": "gold-api.com (spot XAU/USD)",
+   "u": "https://gold-api.com/"
   }
  ],
  "week52": {
@@ -337,23 +343,8 @@
  ],
  "news": [
   {
-   "region": "Malaysia",
-   "date": "2026-11-21T05:00:07+00:00",
-   "auto": true,
-   "h": {
-    "en": "Gold Futures Likely To Trade With Downside Bias Next Week Ahead Of Key US Data",
-    "zh": "Gold Futures Likely To Trade With Downside Bias Next Week Ahead Of Key US Data"
-   },
-   "i": {
-    "en": "Check the article for how this affects supply, demand, the dollar or interest rates.",
-    "zh": "请查看原文，了解其对供需、美元或利率的影响。"
-   },
-   "s": "BernamaBiz",
-   "u": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB4VnJjY0RWV0pBN28wQTZpOEhPbU5JbDhCQnBiRzZXNmdjVGRQdkNZZjRSSWx3OG05Y1BpMEZmT2VHTU5GM1RqSFl3RmRFMVpJQmhNOEx5aGo3dw?oc=5"
-  },
-  {
    "region": "US",
-   "date": "2026-11-21T04:52:42+00:00",
+   "date": "2026-11-22T06:02:12+00:00",
    "auto": true,
    "h": {
     "en": "Gold Breaks Down but is This a Sign of What’s to Come?",
@@ -367,49 +358,79 @@
    "u": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOVEVJZDNBZS1OLW92S0hGaURiVTUxZkNicmhHYjZxN3VQbnZhQlgyVEFTb2hGQTFPZUtmYVg1Sk5aRXU2UU1aYUN2ZjBZRUxMeUFGRWx6c2w1dVB0SmQ3ck4wVE92aDNhQXBZNnNCcXN4MGxPS2JZd1NkS1MxWmN6NlRjc2Jra0RlWTlickROVVBpS0t6dW44eFdCOUhKMEd2Yk1z?oc=5"
   },
   {
-   "region": "Malaysia",
-   "date": "2026-11-21T03:51:23+00:00",
-   "auto": true,
-   "h": {
-    "en": "Gold Price Today | Price of Gold Per Ounce | 24 Hour Spot Chart",
-    "zh": "Gold Price Today | Price of Gold Per Ounce | 24 Hour Spot Chart"
-   },
-   "i": {
-    "en": "Check the article for how this affects supply, demand, the dollar or interest rates.",
-    "zh": "请查看原文，了解其对供需、美元或利率的影响。"
-   },
-   "s": "Kitco",
-   "u": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBnU2dTNUduLWh4WmxVQy1ndS1jN01abVlCeTNTMnFMbFdmS1d6TnFCekxTZVlXNGtKdnNRN3plT00yZm5LQmh6Rg?oc=5"
-  },
-  {
-   "region": "US",
-   "date": "2026-11-21T03:05:00+00:00",
-   "auto": true,
-   "h": {
-    "en": "Fed Rate-Hike Expectations and Stronger Dollar Send New York Gold Tumbling Nearly 5% in a Single Session, Breaking Below $3,550",
-    "zh": "Fed Rate-Hike Expectations and Stronger Dollar Send New York Gold Tumbling Nearly 5% in a Single Session, Breaking Below $3,550"
-   },
-   "i": {
-    "en": "Interest-rate news: higher US rates or yields usually weigh on gold; lower ones tend to support it.",
-    "zh": "利率消息：美国利率或收益率上升通常压制金价，下降则往往利好金价。"
-   },
-   "s": "BigGo Finance",
-   "u": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9MQ29qQ2syYzJKOS1GdkwzUU9Hd21PR2dNMVRvalhzZXdmakZWampYSWxvMnJBTFBrd3pnVUdyLUthWDBMZEQ0M2l2X2ZVMTBpazYwUVF1NVJqczhtUExzYkxkWmZUQzhfdzJYS0tCbTJ1UUhQakE?oc=5"
-  },
-  {
    "region": "Global",
-   "date": "2026-11-20T20:00:31+00:00",
+   "date": "2026-11-22T03:55:12+00:00",
    "auto": true,
    "h": {
-    "en": "Gold Is Now Cheaper Than What The Central Banks Paid (NYSEARCA:GLD)",
-    "zh": "Gold Is Now Cheaper Than What The Central Banks Paid (NYSEARCA:GLD)"
+    "en": "Behind Closed Doors, Central Banks Build a Case for Bitcoin—But With Gold",
+    "zh": "Behind Closed Doors, Central Banks Build a Case for Bitcoin—But With Gold"
    },
    "i": {
     "en": "Central-bank demand is a longer-term support for gold; it rarely moves daily prices on its own.",
     "zh": "央行需求是金价的长期支撑因素，单独很少左右日内价格。"
    },
-   "s": "Seeking Alpha",
-   "u": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPWmpyd0VCaENDNDZNdGtld3NxelFpQ3E1Rl9tV0tGdnk0cy1pY2tfcjhBSjRadHRRYkJqT0NnNHFLeWplVTNvRFFOdzYwNFhxYUZXMjNhc3JNTFhvcHpTSHU2VVRxRVJDaFNhNEhiYVRseDZvWWVjWGY0T3h3NlNnM0stTnB5ZE1QclRRUWw0TUxUZkk?oc=5"
+   "s": "Bitcoin News",
+   "u": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNbWJqbExlSS1zQ3dHeDFpVEdIZkVIWkIxdE4zUWFGcDlZQUtuMFNkY3g0bEJENm0tajNZaExNemYySk5FX1VkazZlZlVzY3BrWUx5alE3ckJ6WGVzaDhoSmk4dEpicnU5OTJadDRZWF9ZdjN3N0dSSk1HZzJBWlNPdnZoT2k2NlFWcUxKS216WlZ0ZFo2OXc?oc=5"
+  },
+  {
+   "region": "Global",
+   "date": "2026-11-22T00:17:05+00:00",
+   "auto": true,
+   "h": {
+    "en": "Central Banks Repatriate Gold, Broaden Review of Digital-Asset Investments",
+    "zh": "Central Banks Repatriate Gold, Broaden Review of Digital-Asset Investments"
+   },
+   "i": {
+    "en": "Central-bank demand is a longer-term support for gold; it rarely moves daily prices on its own.",
+    "zh": "央行需求是金价的长期支撑因素，单独很少左右日内价格。"
+   },
+   "s": "bloomingbit",
+   "u": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE01bGlVUnV0YmpmZkw5RFVtQ0NmQm04cTNoR0ZRSFVjTUVMSzhCLUpjYjAtTkhBMXVpLVpVZUhVVnVRbzlNNnBzcWo5bWloalNxbVc5dQ?oc=5"
+  },
+  {
+   "region": "US",
+   "date": "2026-11-21T18:55:00+00:00",
+   "auto": true,
+   "h": {
+    "en": "Global Gold Prices Plunge Nearly 10% in a Week, $3,500/oz Threshold Wobbles",
+    "zh": "Global Gold Prices Plunge Nearly 10% in a Week, $3,500/oz Threshold Wobbles"
+   },
+   "i": {
+    "en": "Check the article for how this affects supply, demand, the dollar or interest rates.",
+    "zh": "请查看原文，了解其对供需、美元或利率的影响。"
+   },
+   "s": "BigGo Finance",
+   "u": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5tRDUzN191Ukg2UF9LN0c4Vm9pY3liekhPV3VCZ0hnZWVpZFlScnpKN3h2b2VjeFhuWGFOaXpFNEE0UDdBMXJBRTR3YXAyM2FpY09DcEh5TTUtQmdHbDNmYUJld0lrcHhPMmppTVYyZno4VVZUV0E?oc=5"
+  },
+  {
+   "region": "Malaysia",
+   "date": "2026-11-21T03:18:16+00:00",
+   "auto": true,
+   "h": {
+    "en": "Gold Futures Likely To Trade With Downside Bias Next Week Ahead Of Key US Data",
+    "zh": "Gold Futures Likely To Trade With Downside Bias Next Week Ahead Of Key US Data"
+   },
+   "i": {
+    "en": "Check the article for how this affects supply, demand, the dollar or interest rates.",
+    "zh": "请查看原文，了解其对供需、美元或利率的影响。"
+   },
+   "s": "BernamaBiz",
+   "u": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB4VnJjY0RWV0pBN28wQTZpOEhPbU5JbDhCQnBiRzZXNmdjVGRQdkNZZjRSSWx3OG05Y1BpMEZmT2VHTU5GM1RqSFl3RmRFMVpJQmhNOEx5aGo3dw?oc=5"
+  },
+  {
+   "region": "Malaysia",
+   "date": "2026-11-20T23:37:00+00:00",
+   "auto": true,
+   "h": {
+    "en": "Malaysia Gold Association – driving adoption of industry protocol a key priority next year",
+    "zh": "Malaysia Gold Association – driving adoption of industry protocol a key priority next year"
+   },
+   "i": {
+    "en": "Ringgit news: a stronger ringgit makes gold slightly cheaper in RM, even if USD gold is flat.",
+    "zh": "马币消息：即使美元金价不变，马币走强也会使以令吉计的金价略降。"
+   },
+   "s": "The Sun Malaysia",
+   "u": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPcGdKblRhenkxRkktWU9iODRsV2luZThocmZGNENRU1ZfOEs1MFlzajR0cXRPNXJ6al9yLVh4SWpicEFydkR5bVotYnNaMC1ibmpfakVla1pvT05udTRBeEJ4b09kRkJ1ai0wS2taM1ptOHg3aEg3NVJqX0txdTJMd0x6b2FpUHpFOU9fVTBkWTZiMDhqaERZUFpfQUtia2l6TGNoR3pfanh6VUYxR3ljNWJ5MlB3MVk?oc=5"
   },
   {
    "region": "UAE",
@@ -440,21 +461,6 @@
    },
    "s": "Moomoo",
    "u": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPZlVzazNHUjhfWU1SN0k2Y2NKRWJEWDVXQWd3ZGhzd3dSdTVPOVFIQl9tVEVYbVpEby15VlhfWU5aSlJ3ZDgtaEtQRW14ZWU3aTMwdUVnS0lIcUZ0RF9IcDI0dkxTblNkeDFFZTdVb0E1ZU9ycEZBb2J5bHJpNVFycURzVE1tc0F4aE1TS0dhbVpmZE1oR0g0VDhtY1pFazFJSXJFeUx3?oc=5"
-  },
-  {
-   "region": "Global",
-   "date": "2026-11-19T11:19:08+00:00",
-   "auto": true,
-   "h": {
-    "en": "World Gold Council: Global central banks reported net gold purchases of 61 tonnes in September, marking the highest monthly total since 2026.",
-    "zh": "World Gold Council: Global central banks reported net gold purchases of 61 tonnes in September, marking the highest monthly total since 2026."
-   },
-   "i": {
-    "en": "Central-bank demand is a longer-term support for gold; it rarely moves daily prices on its own.",
-    "zh": "央行需求是金价的长期支撑因素，单独很少左右日内价格。"
-   },
-   "s": "Moomoo",
-   "u": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPeGRTc0NVbzRPdzZEMnctbVNzbFlMREF3YkpXZkNWOElsMTQ0MFRSOXJVcURZdS1zUHFHMG1PNV9VaXlPdnMxVGRPZGdKWlBwOGlESnhPdUR3eHczLTBEYnVTaUJLRHEyRGhCRWdMTnFCcEI5bWxSM1A2em84NXJrdlhTWU1Ea09tbG9vRkdVRHJKdFlsdGdCaXpia0Nkemx2MUZ5NHFWbERoRGpLdXRrUw?oc=5"
   },
   {
    "region": "Hong Kong",
@@ -489,9 +495,9 @@
  ],
  "schemaVersion": 1,
  "lastRefresh": {
-  "at": "2026-11-21T15:37:15+08:00",
+  "at": "2026-11-22T15:19:24+08:00",
   "by": "GitHub Actions",
-  "note": "spot 3539.00; week52; model down; MYR 4.1127; kijang 2026-11-20; news 10"
+  "note": "spot 3539.00; week52; model down; MYR 4.1128; kijang 2026-11-20; news 10"
  },
  "forecasts": {
   "checked": "2026-11-12",
@@ -630,7 +636,7 @@
   ]
  },
  "model": {
-  "asOf": "2026-11-21T15:37:16+08:00",
+  "asOf": "2026-11-22T15:19:24+08:00",
   "spot": 3539.0,
   "dailyVolPct": 1.47,
   "annualVolPct": 23.4,
